@@ -19,7 +19,7 @@ for otu in otu_dict:
 #turn it back into a list
 ott_ids = list(ott_ids)
 
-tre = opentree_helpers.get_tree_from_synth(ott_ids=ott_ids, label_format="name")
+tre = opentree_helpers.get_tree_from_synth(ott_ids=ott_ids, label_format="name", citation= citations_file)
 tre.write(path=induced_subtree,
           schema="newick",
           suppress_internal_taxon_labels=True,

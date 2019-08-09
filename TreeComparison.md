@@ -1,19 +1,12 @@
----
-title: "Comparing and updating phylogenetic trees"
-output: html_document
-bibliography: bibliography.bib
----
-
 # Comparing and updating phylogenetic trees
 
 
 There any many ways to generate phylogenetic trees!  
 All kinds of data, lots of analysis methods.
-We've talked a lot about estimating trees. But what do we do with them?
+We've talked a lot about estimating trees.
 
 **How can we contextualize our phylogenetic inferences in existing literature and taxonomy?**
 
-One of the key challenges of comparing trees across studies is minor differences in names and naming.
 
 In this tutorial we will walk through:
   * Standardizing taxon names
@@ -102,16 +95,17 @@ In order to do so, you need to map taxon names to unique identifiers.
 Get the tutorial folder using
 ```
     git clone https://github.com/snacktavish/Mole2019.git
-    cd  WH2019/tutorial
+    cd  Mole2019/tutorial
 ```
 
 The names of the taxa you included used in your tree estimation in Minh's lab are in the file
 'species_names.txt'
 
 
+One of the key challenges of comparing trees across studies is minor differences in names and naming.
 We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
-(This is a brand new beta-version of the site, some parts are a bit finicky).
+(This is a brand new beta-version of ths functionality some parts are a bit finicky).
 
   * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
   * In the mapping options section,
@@ -126,8 +120,10 @@ A few taxa still show several suggested names. Click through to the taxonomy, an
 Once you have accepted names for each of the taxa, click "save nameset".
 
 Download it to your laptop.
-Extract the file.
-Take a look at the human readable version (main.csv) and transfer the main.json file to the tutorial folder on the cluster.
+Extract the files.
+Take a look at the human readable version (output/main.csv).
+main.json conatins the the same data in a more computer readable format.
+Transfer the main.json file to the tutorial folder on the cluster.
 
 ### Using API's
 You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
@@ -179,6 +175,8 @@ It will write two files out to your current working directory - the tree, 'synth
 Move both those files to your computer.
 Open the synthetic subtree in figtree.
 
+You can look at the tree, but it much more interesting in comparison to an alternate estimate!
+
 
 ## Comparing trees
 Imagine that we want to get some more taxonomic context for our inferences that we made
@@ -201,7 +199,7 @@ This should generate file labelled 'turtle_iqtree_OTT.tre'
 
 Transfer this file to your computer.
 
-### Using Phylo.io to compare two trees
+### Using Phylo.io to compare two trees.
 A quick way to visualize even fairly large trees is
 http://phylo.io/
 
@@ -213,6 +211,10 @@ Is your tree inference different that the relationships from OpenTree?
 
 How so?
 
+## Taxon re-naming
+'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled MRCA.
+
+Let's look at the synthetic tree to see what is going on!
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
 
@@ -220,10 +222,9 @@ When experimenting with OpenTree, or doing demo's **please** use our development
 https://devtree.opentreeoflife.org/curator
 There will be a red banner in the corner!
 
-I will demonstrate how to upload your inference tree to OpenTree using the curator sites,
+I do a demonstration of how to upload your inference tree to OpenTree using the curator sites,
 but if you want to try it out yourself later, there are detailed instructions at:
 https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-Tree-of-Life
-
 
 
 ## Automated updating of an existing tree
@@ -244,7 +245,6 @@ We'll walk through the script 'data_scrape.py' together, and then run it.
   $ python data_scrape.py
 
 
-
 ### Genomic data (not part of tutorial)
 One of the key challenges of phylogenetic inferences using genomic data is assessing homology.
 
@@ -252,6 +252,7 @@ One approach we have been using is mapping new reads directly to existing infere
 but this approach is work in progress.
 https://github.com/McTavishLab/phycorder/tree/offbyone_dev
 While we are working on applying these techniques to genome scale alignements (Work in progress at https://github.com/McTavishLab/phycorder)
+
 
 
 

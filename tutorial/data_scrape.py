@@ -64,7 +64,7 @@ data_obj = physcraper.generate_ATT_from_phylesystem(aln=aln,
 sys.stdout.write("{} taxa in alignement and tree\n".format(len(data_obj.aln)))
 
 
-data_obj.write_labelled(label='^ot:ottTaxonName', filename="{}{}_original".format(study_id, tree_id))
+data_obj.write_labelled(label='^ot:ottTaxonName', filename="{}{}_original".format(study_id, tree_id), norepeats=False)
 
 # We need to create a physcraper ids object to translate between ncbi and OpenTree identifiers.
 ids = physcraper.IdDicts(conf, workdir=workdir)
@@ -75,4 +75,11 @@ scraper = physcraper.PhyscraperScrape(data_obj, ids)
 
 # to get data from NCBI, align it and estimate a tree using RaxML
 scraper.est_full_tree()
-scraper.data.write_labelled(label='^ot:ottTaxonName', filename="{}{}_updated".format(study_id, tree_id))
+
+#write out the updated tree file, with taxon names as labels:
+## Note: often tre viewers cannot handle trees with multiple tips with the same label, so write labelled has a default of "norepeats = True"
+scraper.data.write_labelled(label='^ot:ottTaxonName', filename="{}{}_updated".format(study_id, tree_id), norepeats=False)
+
+
+# alse write one out you can view in figtree etc
+scraper.data.write_labelled(label='^ot:ottTaxonName', filename="{}{}_updated_norepeats".format(study_id, tree_id),norepeats=True)

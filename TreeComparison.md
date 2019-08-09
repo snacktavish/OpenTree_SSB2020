@@ -181,7 +181,7 @@ Open the synthetic subtree in figtree.
 
 ## Comparing trees
 Imagine that we want to get some more taxonomic context for our inferences that we made
-using IQ-TREE? 
+using IQ-TREE.
 How does the tree we estimated during that lab (which we know is contentious) compare to taxonomy and other published literature?
 
 In order to make comparisons about statements that two different trees are making about the same set of taxa, we need to make sure the labels on the tree match.

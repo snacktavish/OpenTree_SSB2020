@@ -162,10 +162,7 @@ source /class/molevol-software/venv-physcraper/bin/activate
 
 ```
 
-To install and run on your own laptop see:
-```
-https://github.com/McTavishLab/physcraper/blob/master/INSTALL
-```
+To install and run on your own laptop see the instructions on https://github.com/McTavishLab/physcraper/blob/master/INSTALL
 
 Your terminal should show **(venv-physcraper)** to the left of the bash prompt.
 
@@ -184,8 +181,9 @@ Open the synthetic subtree in figtree.
 
 
 ## Comparing trees
-Say we wanted to get some more taxonomic context for our inferences that we made
-using IQ Tree? How does that tree (which we know is contentious) compare to taxonomy and other published literature?
+Imagine that we want to get some more taxonomic context for our inferences that we made
+using IQ-TREE.
+How does the tree we estimated during that lab (which we know is contentious) compare to taxonomy and other published literature?
 
 In order to make comparisons about statements that two different trees are making about the same set of taxa, we need to make sure the labels on the tree match.
 
@@ -269,14 +267,18 @@ Resolve those names to Open Tree identifiers, and modify get_tree.py to get a tr
 
 Do you have a published tree that would do a better job on those relationships, but it isn't included in the synthetic tree?
 
-Upload it to the production site tree.opentreeoflife.org
+Upload it to the production site https://tree.opentreeoflife.org
 
 
 ## Update a different tree
 
+<<<<<<< HEAD
 Choose different tree that has data in treebase (the list of studies that has treebase data is in the tutorial repo as treebase_studies.txt).
 
 Or that you have your own (single gene) alignment for!
+=======
+Choose differnet tree that has data in TreeBASE, or that you have your own (single gene) alignment for!
+>>>>>>> f4fba7bff806f784815be37be2d98f1f0f178003
 Modify
 
 $ python data_scrape_alt.py
@@ -285,7 +287,7 @@ to try to scrape data for those taxa.
 %TODO (set of suggested pairs that have worked)
 %TDOD Script for OwnFile
 
-Upload your extended tree to devtree.opentreeoflife.org/curator
+Upload your extended tree to https://devtree.opentreeoflife.org/curator
 
 (requires a github login)
 

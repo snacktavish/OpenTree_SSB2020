@@ -162,10 +162,7 @@ source /class/molevol-software/venv-physcraper/bin/activate
 
 ```
 
-To install and run on your own laptop see:
-```
-https://github.com/McTavishLab/physcraper/blob/master/INSTALL
-```
+To install and run on your own laptop see the instructions on https://github.com/McTavishLab/physcraper/blob/master/INSTALL
 
 Your terminal should show **(venv-physcraper)** to the left of the bash prompt.
 

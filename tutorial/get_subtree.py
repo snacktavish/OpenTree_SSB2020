@@ -20,6 +20,14 @@ for otu in otu_dict:
 ott_ids = list(ott_ids)
 
 tre = opentree_helpers.get_tree_from_synth(ott_ids=ott_ids, label_format="name", citation= citations_file)
+
+# The synth tree doesn't have any branch lengths. That's generally fine, but some tree viewers want them!
+# Lets set each branch length to 1
+# Thanks Jeet Sukumaran and Dendropy for making this easy!!
+for edge in tre.postorder_edge_iter():
+    edge.length = 1.0
+
+
 tre.write(path=induced_subtree,
           schema="newick",
           suppress_internal_taxon_labels=True,

@@ -13,7 +13,7 @@ We've talked a lot about estimating trees. But what do we do with them?
 
 **How can we contextualize our phylogenetic inferences in existing literature and taxonomy?**
 
-One of the key challenges of comparing tree across studies is minor differences in names and naming.
+One of the key challenges of comparing trees across studies is minor differences in names and naming.
 
 In this tutorial we will walk through:
   * Standardizing taxon names
@@ -111,7 +111,7 @@ The names of the taxa you included used in your tree estimation in Minh's lab ar
 
 We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
-(This is a brand new beta-versionof the site, some parts are a bit finicky).
+(This is a brand new beta-version of the site, some parts are a bit finicky).
 
   * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
   * In the mapping options section,
@@ -135,7 +135,7 @@ You can use the OpenTree API's to get the tree for a subset of taxa directly fro
 
 For example:
 ```
-curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[292466, 267845, 666104, 316878]}'
+curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[292466, 267845, 316878]}'
 ```
 For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs
 
@@ -169,7 +169,7 @@ https://github.com/McTavishLab/physcraper/blob/master/INSTALL
 
 Your terminal should show **(venv-physcraper)** to the left of the bash prompt.
 
-
+### Getting a subtree
 Take a look at the script in the tutorials folder 'get_subtree.py'.
 This script gets the OpenTree ids from your taxonomy mapping file 'main.json',
 and uses them to get a tree for those taxa.
@@ -181,6 +181,7 @@ It will write two files out to your current working directory - the tree, 'synth
 
 Move both those files to your computer.
 Open the synthetic subtree in figtree.
+
 
 ## Comparing trees
 Say we wanted to get some more taxonomic context for our inferences that we made
@@ -255,13 +256,13 @@ https://github.com/McTavishLab/phycorder/tree/offbyone_dev
 While we are working on applying these techniques to genome scale alignements (Work in progress at https://github.com/McTavishLab/phycorder)
 
 
-## On your own!
-#### Choose your own adventure.
 
-## Get Synth tree
+## Choose your own adventure!
+
+## Get a synthetic tree
 Make a list of taxa of your own and save it in a text file.
 
-Scientific names only.
+Scientific names only!
 
 Resolve those names to Open Tree identifiers, and modify get_tree.py to get a tree for our taxa of interest.
 
@@ -273,7 +274,9 @@ Upload it to the production site tree.opentreeoflife.org
 
 ## Update a different tree
 
-Choose differnet tree that has data in treebase, or that you have your own (single gene) alignment for!
+Choose different tree that has data in treebase (the list of studies that has treebase data is in the tutorial repo as treebase_studies.txt).
+
+Or that you have your own (single gene) alignment for!
 Modify
 
 $ python data_scrape_alt.py

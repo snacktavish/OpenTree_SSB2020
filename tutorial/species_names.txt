@@ -1,0 +1,16 @@
+protopterus
+Anolis
+Gallus
+Homo
+Monodelphis
+Ornithorhynchus
+Taeniopygia
+Xenopus
+alligator
+emys_orbicularis
+phrynops
+caiman
+caretta
+python
+chelonoidis_nigra
+podarcis

@@ -15,7 +15,7 @@ import dendropy
 configfi = "aws.config"
 study_id = "pg_873"
 tree_id = "tree1679"
-workdir ="local_shoch"
+workdir ="scrape_pg_873"
 
 
 # Read in the configuration information
@@ -40,13 +40,15 @@ tre = dendropy.Tree.get(data=newick,
 dataset = physcraper.opentree_helpers.get_dataset_from_treebase(study_id,
                                                                 phylesystem_loc='api')
 
+aln = None
 ##order of data matrices is arbitratry, so we choose one that matches the tree length
 for mat in dataset.char_matrices:
     if len(mat) == len(tre.taxon_namespace):
         aln = mat
 
 # If we didn't find an alignement that is an exact match, try the 1st one
-aln = dataset.char_matrices[0]
+if not aln:
+  aln = dataset.char_matrices[0]
 
 #Write it out to file, os we have the 'before' alignment
 aln.write(path="{}{}.aln".format(study_id, tree_id), schema="nexus")

@@ -270,15 +270,21 @@ Do you have a published tree that would do a better job on those relationships, 
 Upload it to the production site https://tree.opentreeoflife.org
 
 
-## Update a different tree
+## Update your own tree!
 
-<<<<<<< HEAD
+If you have:
+  * an alignement (single gene)
+  * a tree
+
+You can automatically update your own tree using physcraper!
+
+Generate a name-mapping file using the Bulk TNRS, then
+follow the instructions in `own_data_scrape.py`
+
+
 Choose different tree that has data in treebase (the list of studies that has treebase data is in the tutorial repo as treebase_studies.txt).
 
 Or that you have your own (single gene) alignment for!
-=======
-Choose differnet tree that has data in TreeBASE, or that you have your own (single gene) alignment for!
->>>>>>> f4fba7bff806f784815be37be2d98f1f0f178003
 Modify
 
 $ python data_scrape_alt.py

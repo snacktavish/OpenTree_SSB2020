@@ -106,7 +106,8 @@ One of the key challenges of comparing trees across studies is minor differences
 We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
 (This is a brand new beta-version of this functionality, so some parts are a bit finicky).
-**Try this**
+
+*Try this*
   * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
   * In the mapping options section,
     - select 'animals' to narrow down the possibilities and speed up mapping

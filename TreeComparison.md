@@ -283,7 +283,8 @@ https://tree.opentreeoflife.org/curator
 A student is studying jellyfish that live in Jellyfish Lake in Palau.   
 Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
 They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
-There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema. Which genome should they use to assemble their transcriptome.
+There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema.  
+*Which genome should they use to assemble their transcriptome?*
 
 
 **Q)** What are the relationships among these taxa? Which taxon is most closely related to mastigias?
@@ -291,14 +292,17 @@ There are genomic resources available in the genera Cassiopea, Aurelia and Rhopi
 **Q)** What studies support this inference?
 
 One of the genera got renamed! Why?
-Look in the synthetic tree, to assess what is happened.
+Look in the synthetic tree, to assess what is happened.  
+
 **Q)**  Which genus?
+
 **Q)**  What phylogenetically supported three-taxon relationship breaks up this genus?
+
 **Q)**  Is there conflict between the phylogenetic studies that traverse this part of the tree?
 
 
 ## Choose your own adventure!
-Try one of the ideas below.
+If there is time, try one of the ideas below.
 
 ### Get a synthetic tree
 Make a list of taxa you are interested in and save it in a text file.

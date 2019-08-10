@@ -264,13 +264,18 @@ This example ML tree actually has low support.
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
 
-When experimenting with OpenTree, or doing demo's that upload data, **please** use our development site,
-https://devtree.opentreeoflife.org/curator
-There will be a red banner in the corner!
 
 I will do a demonstration of how to upload your inference tree to OpenTree using the curator sites,
 but if you want to try it out yourself later, there are detailed instructions at:
 https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-Tree-of-Life
+
+When experimenting with OpenTree, or doing demos that upload data, **please** use our development site,
+https://devtree.opentreeoflife.org/curator
+There will be a red 'Development' banner in the corner!
+
+To upload your published trees, go to
+https://tree.opentreeoflife.org/curator
+
 
 ##  Exercise
 <img src="img/mastigias.jpg" alt="drawing" width="400"/>  
@@ -324,7 +329,7 @@ Upload your extended tree to https://devtree.opentreeoflife.org/curator
 (requires a github login)
 
 
-### Update your own alignement and  tree file!
+### Update your own alignment and  tree file!
 
 If you have:
   * an alignment (single gene)

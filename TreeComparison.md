@@ -11,6 +11,7 @@ We've talked a lot about estimating trees.
 In this tutorial we will walk through:
   * Standardizing taxon names
   * Getting existing trees for arbitrary sets of taxa
+  * Uploading trees to Open Tree of Life
   * Visualizing conflict between estimates
   * Updating an existing phylogeny with new data from GenBank
 
@@ -170,6 +171,8 @@ and uses them to get a tree for those taxa.
 Edit the location of your json file, and run get subtree.py
 
     $ python get_subtree.py
+
+
 It will write two files out to your current working directory - the tree, 'synth_subtree.tre' and the citations of published trees that went into generating that tree, and support the relationships in it.
 
 Move both those files to your computer.
@@ -207,14 +210,18 @@ If you have trees with matching labels, you can do a quick comparison.
 
 Upload both trees to phylo.io
 
-Is your tree inference different that the relationships from OpenTree?
+Is your tree inference different than the relationships from OpenTree?
 
 How so?
 
 ## Taxon re-naming
-'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled MRCA.
+'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled 'mrca'.
 
 Let's look at the synthetic tree to see what is going on!
+
+https://tree.opentreeoflife.org/opentree/argus/ottol@937560/Podarcis
+
+
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
 
@@ -231,18 +238,31 @@ https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-T
 There is a lot of sequence data that has been generated, but has never been incorporated into any phylogenetic estimates.
 We only store phylogenies and associated metadata in OpenTree, not alignments.
 
-## Updating gene trees
+### Updating gene trees
 However, if you have access to a single gene alignment, and a tree, you can automate adding homologous data into your tree by searching NCBI.
 
 These automated tree can provide a quick inference or potential relationships, of problems in the taxonomic assignments of sequences, and flag areas of potential systematic interest.
 
-By using a starting tree and alignement, Physcraper, takes advantage of loci that previous researchers have assessed and deemed appropriate for the problem at hand.
+By using a starting tree and alignment, Physcraper, takes advantage of loci that previous researchers have assessed and deemed appropriate for the problem at hand.
 
 In order to minimize the risk of incorrectly assigning homology, tips in the starting tree are mapped to the Open Tree taxonomy, as above, and only adding new sequences that are within that ingroup.
 
 We'll walk through the script 'data_scrape.py' together, and then run it.
 
   $ python data_scrape.py
+
+The output is (perhaps overly) verbose.
+
+
+Q) What is the MRCA of the sampled taxa?
+
+Q) How many new sequences were found?
+
+Q) How many new taxa?
+
+
+When this analysis is done running, we will upload our updated tree file to devtree.opentreeoflife.org/curator
+
 
 
 ### Genomic data (not part of tutorial)
@@ -256,6 +276,24 @@ While we are working on applying these techniques to genome scale alignements (W
 
 
 
+
+##  Exercise
+A student is studying jellyfish that live in Jellyfish Lake in Palau. Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
+They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
+There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema
+
+Q1) What are the relationships among these taxa?
+
+Q2) What studies support these inference?
+
+Q3) Are any of these genera not consistent with phylogeny?
+
+
+
+
+
+
+
 ## Choose your own adventure!
 
 ## Get a synthetic tree
@@ -263,23 +301,35 @@ Make a list of taxa of your own and save it in a text file.
 
 Scientific names only!
 
-Resolve those names to Open Tree identifiers, and modify get_tree.py to get a tree for our taxa of interest.
+Resolve those names to Open Tree identifiers, and modify get_tree.py to get a tree for your taxa of interest.
 
 
+
+
+## Compare your tree to the synth tree
 Do you have a published tree that would do a better job on those relationships, but it isn't included in the synthetic tree?
 
 Upload it to the production site https://tree.opentreeoflife.org
 
 
-## Update your own tree!
+## Update your own local tree file!
 
 If you have:
-  * an alignement (single gene)
+  * an alignment (single gene)
   * a tree
 
 You can automatically update your own tree using physcraper!
 
-Generate a name-mapping file using the Bulk TNRS, then
+OR
+use the alignment "" and the tree ""
+
+
+In either case,
+Generate a name-mapping file using the Bulk TNRS.
+
+Use the Open
+
+then
 follow the instructions in `own_data_scrape.py`
 
 
@@ -290,9 +340,11 @@ Modify
 
 $ python data_scrape_alt.py
 
-to try to scrape data for those taxa.
-%TODO (set of suggested pairs that have worked)
-%TDOD Script for OwnFile
+There are some alignments in the alignments folder labelled as 'StudyIdTreeId.aln'.
+Check out what the studies are on
+By going to https://tree.opentreeoflife.org/curator/study/view/{StudyId}
+
+If any of them interest you, to try to scrape data for those taxa, by modifying data_scrape_alt
 
 Upload your extended tree to https://devtree.opentreeoflife.org/curator
 

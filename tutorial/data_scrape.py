@@ -15,7 +15,12 @@ from peyotl.nexson_syntax import (
 configfi = "aws.config"
 study_id = "ot_350"
 tree_id = "Tr53297"
+
+#We will use an alignment deposited treebase
+alnfile = "alignments/ot_350.aln"
+
 workdir ="scrape_ot_350"
+
 
 
 # Read in the configuration information
@@ -36,19 +41,8 @@ tre = dendropy.Tree.get(data=newick,
                         preserve_underscores=True)
 
 
-#Pull down an alignment from treebase.
-dataset = physcraper.opentree_helpers.get_dataset_from_treebase(study_id,
-                                                                phylesystem_loc='api')
 
-aln = None
-##order of data matrices is arbitratry, so we choose one that matches the tree length
-for mat in dataset.char_matrices:
-    if len(mat) == len(tre.taxon_namespace):
-        aln = mat
-
-# If we didn't find an alignement that is an exact match, try the 1st one
-if not aln:
-  aln = dataset.char_matrices[0]
+aln = dendropy.DnaCharacterMatrix.get(file=open(alnfile), schema="nexus", taxon_namespace=tre.taxon_namespace)
 
 
 # To preserve taxon labels and relationships, 
@@ -94,5 +88,4 @@ scraper.est_full_tree()
 
 #write out the updated tree file, with taxon names as labels:
 scraper.data.write_labelled(label='^ot:ottTaxonName', filename="{}{}_updated_norepeats".format(study_id, tree_id))
-
 

@@ -8,6 +8,8 @@ citations_file = "cites.txt"
 induced_subtree = "synth_subtree.tre"
 
 
+print("Getting synth subtree...\n")
+
 #Use the bulk TNRS output to match your existing tree to standard labels
 otu_dict = opentree_helpers.bulk_tnrs_load(json_file)
 

@@ -4,6 +4,9 @@ from physcraper.treetaxon import TreeTax
 
 
 json_file = "main.json"
+assert os.path.isfile(json_file) #check the file exists and the path is correct
+
+
 citations_file = "cites.txt"
 induced_subtree = "synth_subtree.tre"
 

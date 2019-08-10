@@ -4,8 +4,11 @@ from physcraper.treetaxon import TreeTax
 
 
 json_file = "main.json"
+assert os.path.isfile(json_file) #check the file exists and the path is correct
 
 estimated_tree = "turtle_iqtree.tre"
+assert os.path.isfile(estimated_tree) #check the file exists and the path is correct
+
 estimated_tree_OTT = "turtle_iqtree_OTT.tre"
 
 

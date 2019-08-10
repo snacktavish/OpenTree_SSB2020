@@ -18,6 +18,8 @@ tree_id = "Tr53297"
 
 #We will use an alignment deposited treebase
 alnfile = "alignments/ot_350.aln"
+assert os.path.isfile(alnfile) #check the file exists and the path is correct
+
 
 workdir ="scrape_ot_350"
 

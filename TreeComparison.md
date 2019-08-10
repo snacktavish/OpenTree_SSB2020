@@ -260,14 +260,7 @@ One it is done running, take a look at the output:
 While this analysis is running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
 
 **For real analyses, you would want to bootstrap your tree!**  
-But for now that is too slow, so don't do it.
-e.g.
-```
-raxmlHPC -m GTRGAMMA -p 12345 -x 12345 -# 100 -s ot_350Tr53297_updated_norepeats.fas -n ot_350_boot
-
-sumtrees.py --summary-target=consensus --min-clade-freq=0.7 --percentages --decimals=0 RAxML_bootstrap.fix_boot2 > ot_350_majrule.nex
-
-```
+But for in lab that is too slow, so we will just just look at the ML tree.
 
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy

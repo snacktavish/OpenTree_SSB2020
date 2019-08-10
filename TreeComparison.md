@@ -30,7 +30,6 @@ https://opentreeoflife.github.io/browse/
 
 ## The synthetic tree
 
-
 ## Tree Browser
 
 [https://tree.opentreeoflife.org](https://tree.opentreeoflife.org)
@@ -57,7 +56,7 @@ The properties panel contains:
   * information about how to download a Newick representation of the subtree
       rooted at that node, and
   * information about taxonomies and phylogenies that support or disagree with
-    that node.
+    that node. (e.g. https://tree.opentreeoflife.org/opentree/opentree10.4@mrcaott3089ott32977/Corytophaninae--Leiocephalus)
 
 Clicking on "**ⓘ** Hide Properties" will hide the panel so that you can see more
     of the tree.
@@ -139,14 +138,6 @@ For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/w
 
 Is often more convenient to manipulate both trees and names within a scripting language.
 
-### Using R/ Rstudio  (optional)
-We won't use R today, but there is a great package, [Rotl](https://github.com/ropensci/rotl) that makes it easy to access and work with OpenTree data in R.
-
-
-Tutorial on rotl at : https://ropensci.org/tutorials/rotl_tutorial/
-Tutorial on linking data from OpenTree with species locations from GBIF:
-https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
-
 
 ### Using Python
 We will use wrappers available in the python packages Physcraper and Peyotl to make it easier to work with the Open Tree Api's
@@ -169,9 +160,9 @@ This script gets the OpenTree ids from your taxonomy mapping file 'main.json',
 and uses them to get a tree for those taxa.
 
 Edit the location of your json file, and run get subtree.py
-
+```
     $ python get_subtree.py
-
+```
 
 It will write two files out to your current working directory - the tree, 'synth_subtree.tre' and the citations of published trees that went into generating that tree, and support the relationships in it.
 
@@ -195,10 +186,10 @@ Open 'tutorial/rename_tips.py'.
 This is a very simple script that takes your mapped labels, and uses the conversion from 'original name' to replace the tip names on your tree with the standardized names
 
 Run this file. If you want to, replace the path to my turtle tree ('turtle_iqtree.tre') estimate with the one you estimated in Minh's lab
-
+```
   $ python rename_tips.py
-
-This should generate file labelled 'turtle_iqtree_OTT.tre'
+```
+This should generate a file labelled 'turtle_iqtree_OTT.tre'
 
 Transfer this file to your computer.
 
@@ -210,9 +201,9 @@ If you have trees with matching labels, you can do a quick comparison.
 
 Upload both trees to phylo.io
 
-Is your tree inference different than the relationships from OpenTree?
+**Q** Is your tree inference different than the relationships from OpenTree?
 
-How so?
+**Q** How so?
 
 ## Taxon re-naming
 'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled 'mrca'.
@@ -225,7 +216,7 @@ https://tree.opentreeoflife.org/opentree/argus/ottol@937560/Podarcis
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
 
-When experimenting with OpenTree, or doing demo's **please** use our development site,
+When experimenting with OpenTree, or doing demo's that upload data, **please** use our development site,
 https://devtree.opentreeoflife.org/curator
 There will be a red banner in the corner!
 
@@ -239,106 +230,95 @@ There is a lot of sequence data that has been generated, but has never been inco
 We only store phylogenies and associated metadata in OpenTree, not alignments.
 
 ### Updating gene trees
-However, if you have access to a single gene alignment, and a tree, you can automate adding homologous data into your tree by searching NCBI.
+
+However, if you have access to a single gene alignment, and a tree, you can automate adding homologous data into your tree by searching GenBank.
+
+While genome scale data is increasing rapidly - there are still large quantities of gene-sequence data being uploaded to NCBI GenBank.
+
+<img src="img/seq_data.png" alt="drawing" width="400"/>  
+
+These data are often appropriate for looking at phylogenetic relationships.
+
+Using Physcraper we can use Blast to search for loci that are likely to be homologous to sequences in an existing alignment.
+By using a starting tree and alignment, Physcraper, takes advantage of loci that previous researchers have assessed and deemed appropriate for the phylogentic scope.
+The search is limited to taxa that have been labeled as taxa within a user specified taxon or monophyletic group, or within the ingroup of the starting tree.
 
 These automated tree can provide a quick inference or potential relationships, of problems in the taxonomic assignments of sequences, and flag areas of potential systematic interest.
 
-By using a starting tree and alignment, Physcraper, takes advantage of loci that previous researchers have assessed and deemed appropriate for the problem at hand.
+We will update https://tree.opentreeoflife.org/curator/study/view/ot_350
+Crous P.W., Verkley G., Christensen M., Castaneda-ruiz R.F., & Groenewald J.Z. 2012. How important are conidial appendages?. Persoonia, 28: 126-137.
 
-In order to minimize the risk of incorrectly assigning homology, tips in the starting tree are mapped to the Open Tree taxonomy, as above, and only adding new sequences that are within that ingroup.
+We'll walk through the configuration file 'aws.config' , and the script 'data_scrape.py' together, and then run it.
 
-We'll walk through the script 'data_scrape.py' together, and then run it.
-
+```
   $ python data_scrape.py
-
+```
 The output is (perhaps overly) verbose.
 
 
-Q) What is the MRCA of the sampled taxa?
+**Q)** What is the MRCA of the sampled taxa?
 
-Q) How many new sequences were found?
+**Q)** How many new sequences were found?
 
-Q) How many new taxa?
+**Q)** How many new taxa?
 
 
 When this analysis is done running, we will upload our updated tree file to devtree.opentreeoflife.org/curator
 
 
 
-### Genomic data (not part of tutorial)
-One of the key challenges of phylogenetic inferences using genomic data is assessing homology.
-
-One approach we have been using is mapping new reads directly to existing inferences,
-but this approach is work in progress.
-https://github.com/McTavishLab/phycorder/tree/offbyone_dev
-While we are working on applying these techniques to genome scale alignements (Work in progress at https://github.com/McTavishLab/phycorder)
-
-
-
-
-
 ##  Exercise
-A student is studying jellyfish that live in Jellyfish Lake in Palau. Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
+<img src="img/mastigias.jpg" alt="drawing" width="400"/>  
+
+A student is studying jellyfish that live in Jellyfish Lake in Palau.   
+Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
 They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
-There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema
-
-Q1) What are the relationships among these taxa?
-
-Q2) What studies support these inference?
-
-Q3) Are any of these genera not consistent with phylogeny?
+There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema. Which genome should they use to assemble their transcriptome.
 
 
+**Q)** What are the relationships among these taxa? Which taxon is most closely related to mastigias?
 
+**Q)** What studies support this inference?
 
-
+One of the genera got renamed! Why?
+Look in the synthetic tree, to assess what is happened.
+**Q)**  Which genus?
+**Q)**  What phylogenetically supported three-taxon relationship breaks up this genus?
+**Q)**  Is there conflict between the phylogenetic studies that traverse this part of the tree?
 
 
 ## Choose your own adventure!
 
-## Get a synthetic tree
-Make a list of taxa of your own and save it in a text file.
+### Get a synthetic tree
+Make a list of taxa you are interested in and save it in a text file.
+(Scientific names only)
 
-Scientific names only!
-
-Resolve those names to Open Tree identifiers, and modify get_tree.py to get a tree for your taxa of interest.
-
+Resolve those names to Open Tree identifiers, and modify `get_tree.py` to get a tree for your taxa of interest.
 
 
+### Compare your tree to the synth tree
 
-## Compare your tree to the synth tree
-Do you have a published tree that would do a better job on those relationships, but it isn't included in the synthetic tree?
+Take a look at the area of the synetic tree that is intersing to you.
 
-Upload it to the production site https://tree.opentreeoflife.org
+Do you have or know of a published tree that would do a better job on those relationships, but it isn't included in the synthetic tree?
+
+Upload it to the main website  https://tree.opentreeoflife.org/curator, and your inferences will be incorporated into later drafts of the synthetic tree!
 
 
-## Update your own local tree file!
+### Update your own alignement and  tree file!
 
 If you have:
   * an alignment (single gene)
   * a tree
 
-You can automatically update your own tree using physcraper!
+You can automatically update your own tree using physcraper
 
-OR
-use the alignment "" and the tree ""
-
-
-In either case,
 Generate a name-mapping file using the Bulk TNRS.
 
-Use the Open
-
 then
-follow the instructions in `own_data_scrape.py`
+follow the example and instructions in `own_data_scrape.py`
 
-
-Choose different tree that has data in treebase (the list of studies that has treebase data is in the tutorial repo as treebase_studies.txt).
-
-Or that you have your own (single gene) alignment for!
-Modify
-
-$ python data_scrape_alt.py
+### Update a different tree from OpenTree
 
 There are some alignments in the alignments folder labelled as 'StudyIdTreeId.aln'.
 Check out what the studies are on
@@ -351,13 +331,21 @@ Upload your extended tree to https://devtree.opentreeoflife.org/curator
 (requires a github login)
 
 
-## Zoom around
+### Unifying geographic and phylogenetic datd using R/Rstudio
+There is a great package, [Rotl](https://github.com/ropensci/rotl) that makes it easy to access and work with OpenTree data in R.
 
-Brain a bit tired? Check out some fun visualizations of the OpenTree tree.
 
-Take a look at OneZoom https://www.onezoom.org/ tree of life explorer
+Tutorial on rotl at : https://ropensci.org/tutorials/rotl_tutorial/
+Tutorial on linking data from OpenTree with species locations from GBIF:
+https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
 
-or this hyperbolic tree https://glouwa.github.io/
+### Zoom around
+
+Brain a bit tired? There are some fun visualizations of the OpenTree tree.
+
+Take a look around OneZoom https://www.onezoom.org/ tree of life explorer
+
+or this emoji hyperbolic tree https://glouwa.github.io/
 
 
 ---

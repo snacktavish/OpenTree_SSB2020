@@ -17,9 +17,9 @@ configfi = "aws.config"
 workdir ="own_data"
 
 
-alnfi = "physcraper/tests/data/tiny_test_example/test.fas"
+alnfi = "/class/molevol-software/physcraper/tests/data/tiny_test_example/test.fas"
 mattype ="fasta"
-treefi = "physcraper/tests/data/tiny_test_example/test.tre"
+treefi = "/class/molevol-software/physcraper/tests/data/tiny_test_example/test.tre"
 schema_trf = "newick"
 
 
@@ -30,7 +30,7 @@ ingroup_mrca ='18794'
 
 
 ## input mappings from your labels to OpenTree, via bulk TNRS
-bulk_names_json = 'physcraper/tests/data/tiny_test_example/main.json'
+bulk_names_json = '/class/molevol-software/physcraper/tests/data/tiny_test_example/main.json'
 otu_dict = opentree_helpers.bulk_tnrs_load(bulk_names_json)
 
 

@@ -1,11 +1,11 @@
-ot_1003
-ot_1013
-ot_1049
-ot_1056
-ot_1072
-ot_1088
-ot_1090
-ot_1092
+ot_1003 NO
+ot_1013 Tr71572 (118 taxa, may be slooow, but works)
+ot_1049 Tr89594 (210 taxa, too big)
+ot_1056 Tr66754 (310)
+ot_1072 ?
+ot_1088 Tr102832 51
+ot_1090 Tr99739 (117)
+ot_1092 Tr29847 (30)
 ot_1102
 ot_1105
 ot_1107

@@ -122,7 +122,10 @@ Once you have accepted names for each of the taxa, click "save nameset".
 Download it to your laptop.
 Extract the files.
 Take a look at the human readable version (output/main.csv).
-main.json conatins the the same data in a more computer readable format.
+
+*Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
+
+main.json contains the the same data in a more computer readable format.
 Transfer the main.json file to the tutorial folder on the cluster.
 
 ### Using API's
@@ -253,8 +256,11 @@ We'll walk through the configuration file 'aws.config' , and the script 'data_sc
 ```
   $ python data_scrape.py
 ```
-The output is (perhaps overly) verbose.
+(NB this script has been taking around 30 minutes on the cluster)
+The output is (perhaps overly) verbose. Take a look at it!   
+Don't worry about the 'skipping acc xxxx, incorrect format' warnings. Those are RNA results which Physcraper cannot currently handle.
 
+One it is done running, take a look at the output:
 
 **Q)** What is the MRCA of the sampled taxa?
 
@@ -263,7 +269,7 @@ The output is (perhaps overly) verbose.
 **Q)** How many new taxa?
 
 
-When this analysis is done running, we will upload our updated tree file to devtree.opentreeoflife.org/curator
+While this analysis is  running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
 
 
 
@@ -338,6 +344,8 @@ There is a great package, [Rotl](https://github.com/ropensci/rotl) that makes it
 Tutorial on rotl at : https://ropensci.org/tutorials/rotl_tutorial/
 Tutorial on linking data from OpenTree with species locations from GBIF:
 https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
+
+
 
 ### Zoom around
 

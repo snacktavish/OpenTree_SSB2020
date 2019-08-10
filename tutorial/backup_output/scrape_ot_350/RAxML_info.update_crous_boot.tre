@@ -1,0 +1,47 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_bootstrap.ot_350. onto tree in file ot_350Tr53297_updated_norepeats.tre
+
+
+RAxML was called as follows:
+
+/usr/bin/raxmlHPC-PTHREADS-AVX -T 2 -m GTRCAT -p 12345 -f b -t ot_350Tr53297_updated_norepeats.tre -z RAxML_bootstrap.ot_350. -n update_crous_boot.tre 
+
+
+
+
+Found 1 tree in File ot_350Tr53297_updated_norepeats.tre
+
+
+
+Found 51 trees in File RAxML_bootstrap.ot_350.
+
+
+
+Found 1 tree in File ot_350Tr53297_updated_norepeats.tre
+
+
+
+Time for Computation of Bipartitions 0.029563
+Tree with bipartitions written to file:  /home/ejmctavish/Desktop/WH2019/tutorial/backup_output/scrape_ot_350/RAxML_bipartitions.update_crous_boot.tre
+Tree with bipartitions as branch labels written to file:  /home/ejmctavish/Desktop/WH2019/tutorial/backup_output/scrape_ot_350/RAxML_bipartitionsBranchLabels.update_crous_boot.tre
+Execution information file written to :  /home/ejmctavish/Desktop/WH2019/tutorial/backup_output/scrape_ot_350/RAxML_info.update_crous_boot.tre

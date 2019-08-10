@@ -131,7 +131,6 @@ Transfer the main.json file to the tutorial folder on the cluster.
 ### Using API's
 You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
 
-
 For example:
 ```
 curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[292466, 267845, 316878]}'
@@ -217,17 +216,6 @@ https://tree.opentreeoflife.org/opentree/argus/ottol@937560/Podarcis
 
 
 
-### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
-
-When experimenting with OpenTree, or doing demo's that upload data, **please** use our development site,
-https://devtree.opentreeoflife.org/curator
-There will be a red banner in the corner!
-
-I do a demonstration of how to upload your inference tree to OpenTree using the curator sites,
-but if you want to try it out yourself later, there are detailed instructions at:
-https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-Tree-of-Life
-
-
 ## Automated updating of an existing tree
 There is a lot of sequence data that has been generated, but has never been incorporated into any phylogenetic estimates.
 We only store phylogenies and associated metadata in OpenTree, not alignments.
@@ -269,9 +257,28 @@ One it is done running, take a look at the output:
 **Q)** How many new taxa?
 
 
-While this analysis is  running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
+While this analysis is running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
+
+**For real analyses, you would want to bootstrap your tree!**  
+But for now that is too slow, so don't do it.
+e.g.
+```
+raxmlHPC -m GTRGAMMA -p 12345 -x 12345 -# 100 -s ot_350Tr53297_updated_norepeats.fas -n ot_350_boot
+
+sumtrees.py --summary-target=consensus --min-clade-freq=0.7 --percentages --decimals=0 RAxML_bootstrap.fix_boot2 > ot_350_majrule.nex
+
+```
 
 
+### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy
+
+When experimenting with OpenTree, or doing demo's that upload data, **please** use our development site,
+https://devtree.opentreeoflife.org/curator
+There will be a red banner in the corner!
+
+I will do a demonstration of how to upload your inference tree to OpenTree using the curator sites,
+but if you want to try it out yourself later, there are detailed instructions at:
+https://github.com/OpenTreeOfLife/opentree/wiki/Submitting-phylogenies-to-Open-Tree-of-Life
 
 ##  Exercise
 <img src="img/mastigias.jpg" alt="drawing" width="400"/>  
@@ -294,6 +301,7 @@ Look in the synthetic tree, to assess what is happened.
 
 
 ## Choose your own adventure!
+Try one of the ideas below.
 
 ### Get a synthetic tree
 Make a list of taxa you are interested in and save it in a text file.
@@ -302,13 +310,26 @@ Make a list of taxa you are interested in and save it in a text file.
 Resolve those names to Open Tree identifiers, and modify `get_tree.py` to get a tree for your taxa of interest.
 
 
-### Compare your tree to the synth tree
+### Contribute to OpenTree
 
-Take a look at the area of the synetic tree that is intersing to you.
+Take a look at the area of the synthetic tree that is interesting to you.
 
-Do you have or know of a published tree that would do a better job on those relationships, but it isn't included in the synthetic tree?
+Do you have, or know of a published tree that would do a better job on those relationships, but it isn't included in the synthetic tree?
 
-Upload it to the main website  https://tree.opentreeoflife.org/curator, and your inferences will be incorporated into later drafts of the synthetic tree!
+Upload it to the main website  https://tree.opentreeoflife.org/curator, and those phylogenetic inferences will be incorporated into later drafts of the synthetic tree!
+
+
+### Update a different tree from OpenTree
+
+There are some alignments in the alignments folder labelled as 'StudyIdTreeId.aln'.
+Check out what the studies are on
+By going to https://tree.opentreeoflife.org/curator/study/view/{StudyId}
+*Replace StudyId with the id of the study you are interested in*
+
+If any of them interest you, to try to scrape data for those taxa, by modifying data_scrape_alt
+
+Upload your extended tree to https://devtree.opentreeoflife.org/curator
+(requires a github login)
 
 
 ### Update your own alignement and  tree file!
@@ -317,34 +338,24 @@ If you have:
   * an alignment (single gene)
   * a tree
 
-You can automatically update your own tree using physcraper
+You can automatically update your own tree using physcraper.
 
 Generate a name-mapping file using the Bulk TNRS.
 
 then
 follow the example and instructions in `own_data_scrape.py`
 
-### Update a different tree from OpenTree
+This doesn't work well currently for more that 50 taxa.
 
-There are some alignments in the alignments folder labelled as 'StudyIdTreeId.aln'.
-Check out what the studies are on
-By going to https://tree.opentreeoflife.org/curator/study/view/{StudyId}
-
-If any of them interest you, to try to scrape data for those taxa, by modifying data_scrape_alt
-
-Upload your extended tree to https://devtree.opentreeoflife.org/curator
-
-(requires a github login)
-
-
-### Unifying geographic and phylogenetic datd using R/Rstudio
+### Unifying geographic and phylogenetic data using R/Rstudio
 There is a great package, [Rotl](https://github.com/ropensci/rotl) that makes it easy to access and work with OpenTree data in R.
 
-
-Tutorial on rotl at : https://ropensci.org/tutorials/rotl_tutorial/
-Tutorial on linking data from OpenTree with species locations from GBIF:
+Try it out using either:
+Tutorial on rotl at, https://ropensci.org/tutorials/rotl_tutorial/
+Tutorial on linking data from OpenTree with species locations from GBIF,
 https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
 
+<img src="img/rotlrgbif.png" alt="drawing" width="400"/>  
 
 
 ### Zoom around

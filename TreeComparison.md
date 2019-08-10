@@ -105,7 +105,7 @@ The names of the taxa you included used in your tree estimation in Minh's lab ar
 One of the key challenges of comparing trees across studies is minor differences in names and naming.
 We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
-(This is a brand new beta-version of ths functionality some parts are a bit finicky).
+(This is a brand new beta-version of this functionality, so some parts are a bit finicky).
 
   * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
   * In the mapping options section,
@@ -169,9 +169,7 @@ Edit the location of your json file, and run get subtree.py
 It will write two files out to your current working directory - the tree, 'synth_subtree.tre' and the citations of published trees that went into generating that tree, and support the relationships in it.
 
 Move both those files to your computer.
-Open the synthetic subtree in figtree.
-
-You can look at the tree, but it much more interesting in comparison to an alternate estimate!
+Open the synthetic subtree in figtree to look at the placement of turtles.
 
 
 ## Comparing trees
@@ -260,7 +258,8 @@ One it is done running, take a look at the output:
 While this analysis is running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
 
 **For real analyses, you would want to bootstrap your tree!**  
-But for in lab that is too slow, so we will just just look at the ML tree.
+But for in lab that is slow, so we will just look at the ML tree.
+This example ML tree actually has low support.
 
 
 ### Uploading your own tree to OpenTree for interactive comparison with the OpenTree synthetic tree and Taxonomy

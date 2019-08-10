@@ -106,7 +106,7 @@ One of the key challenges of comparing trees across studies is minor differences
 We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
 
 (This is a brand new beta-version of this functionality, so some parts are a bit finicky).
-
+**Try this**
   * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
   * In the mapping options section,
     - select 'animals' to narrow down the possibilities and speed up mapping
@@ -138,7 +138,7 @@ curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "
 For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs
 
 
-Is often more convenient to manipulate both trees and names within a scripting language.
+It is often more convenient to manipulate both trees and names within a scripting language.
 
 
 ### Using Python

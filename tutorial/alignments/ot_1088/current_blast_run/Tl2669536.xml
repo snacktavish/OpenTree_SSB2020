@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>3089</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>3089</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|76786578|gb|DQ200926.1|</Hit_id>
+  <Hit_def>Cantharellus cibarius isolate AFTOL-ID 607 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>DQ200926</Hit_accession>
+  <Hit_len>1371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1192.21</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>645</Hsp_query-to>
+      <Hsp_hit-from>727</Hsp_hit-from>
+      <Hsp_hit-to>1371</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>645</Hsp_identity>
+      <Hsp_positive>645</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>645</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|985480769|dbj|LC085408.1|</Hit_id>
+  <Hit_def>Cantharellus cibarius genes for 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-122</Hit_def>
+  <Hit_accession>LC085408</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1186.67</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>642</Hsp_identity>
+      <Hsp_positive>642</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>642</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|985480757|dbj|LC085396.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN4 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-141</Hit_def>
+  <Hit_accession>LC085396</Hit_accession>
+  <Hit_len>1456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1186.67</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>703</Hsp_hit-from>
+      <Hsp_hit-to>1344</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>642</Hsp_identity>
+      <Hsp_positive>642</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>642</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1169191399|gb|KX592760.1|</Hit_id>
+  <Hit_def>Cantharellus roseocanus voucher UBC F23802 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX592760</Hit_accession>
+  <Hit_len>934</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1164.51</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>915</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>638</Hsp_identity>
+      <Hsp_positive>638</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>642</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTATAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1169191398|gb|KX592757.1|</Hit_id>
+  <Hit_def>Cantharellus roseocanus voucher SAT-12-299-06 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX592757</Hit_accession>
+  <Hit_len>1440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1164.51</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>779</Hsp_hit-from>
+      <Hsp_hit-to>1420</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>638</Hsp_identity>
+      <Hsp_positive>638</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>642</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTATAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|146386314|gb|EF546767.1|</Hit_id>
+  <Hit_def>Cantharellus cibarius 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>EF546767</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1144.2</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>645</Hsp_query-to>
+      <Hsp_hit-from>781</Hsp_hit-from>
+      <Hsp_hit-to>1428</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>639</Hsp_identity>
+      <Hsp_positive>639</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTA--ATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTGACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGTAATATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||| ||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|309323885|gb|HQ270123.1|</Hit_id>
+  <Hit_def>Cantharellus cibarius isolate MSR1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HQ270123</Hit_accession>
+  <Hit_len>1339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1136.81</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>645</Hsp_query-to>
+      <Hsp_hit-from>685</Hsp_hit-from>
+      <Hsp_hit-to>1330</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>636</Hsp_identity>
+      <Hsp_positive>636</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|985480724|dbj|LC085363.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-17</Hit_def>
+  <Hit_accession>LC085363</Hit_accession>
+  <Hit_len>923</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1133.12</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>645</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>914</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>636</Hsp_identity>
+      <Hsp_positive>636</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>647</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|309323891|gb|HQ270129.1|</Hit_id>
+  <Hit_def>Cantharellus sp. MSR-2010c isolate 169 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HQ270129</Hit_accession>
+  <Hit_len>1357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1133.12</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>645</Hsp_query-to>
+      <Hsp_hit-from>692</Hsp_hit-from>
+      <Hsp_hit-to>1338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>636</Hsp_identity>
+      <Hsp_positive>636</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>647</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAG-TTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCAATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|985480734|dbj|LC085373.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-2</Hit_def>
+  <Hit_accession>LC085373</Hit_accession>
+  <Hit_len>1413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1131.27</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>623</Hsp_hit-from>
+      <Hsp_hit-to>1265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>643</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|309323880|gb|HQ270118.1|</Hit_id>
+  <Hit_def>Cantharellus sp. DK-2010a isolate 121 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HQ270118</Hit_accession>
+  <Hit_len>1333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1129.42</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>641</Hsp_query-to>
+      <Hsp_hit-from>692</Hsp_hit-from>
+      <Hsp_hit-to>1333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>632</Hsp_identity>
+      <Hsp_positive>632</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>642</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATC</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|309323877|gb|HQ270115.1|</Hit_id>
+  <Hit_def>Cantharellus sp. DK-2010e isolate 184 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>HQ270115</Hit_accession>
+  <Hit_len>1337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1129.42</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>641</Hsp_query-to>
+      <Hsp_hit-from>696</Hsp_hit-from>
+      <Hsp_hit-to>1337</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>632</Hsp_identity>
+      <Hsp_positive>632</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>642</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATC</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|985480732|dbj|LC085371.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-130</Hit_def>
+  <Hit_accession>LC085371</Hit_accession>
+  <Hit_len>812</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|985480731|dbj|LC085370.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-19</Hit_def>
+  <Hit_accession>LC085370</Hit_accession>
+  <Hit_len>913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>760</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|985480730|dbj|LC085369.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-18</Hit_def>
+  <Hit_accession>LC085369</Hit_accession>
+  <Hit_len>1040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|985480723|dbj|LC085362.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: S-244</Hit_def>
+  <Hit_accession>LC085362</Hit_accession>
+  <Hit_len>1278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>623</Hsp_hit-from>
+      <Hsp_hit-to>1266</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|985480722|dbj|LC085361.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: C-12</Hit_def>
+  <Hit_accession>LC085361</Hit_accession>
+  <Hit_len>844</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATT-ATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTYATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|985480720|dbj|LC085359.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, specimen_voucher: TNS-F-61925</Hit_def>
+  <Hit_accession>LC085359</Hit_accession>
+  <Hit_len>1436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>633</Hsp_hit-from>
+      <Hsp_hit-to>1276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|985480713|dbj|LC085352.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: S-111</Hit_def>
+  <Hit_accession>LC085352</Hit_accession>
+  <Hit_len>1426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>633</Hsp_hit-from>
+      <Hsp_hit-to>1276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|985480712|dbj|LC085351.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: S-89</Hit_def>
+  <Hit_accession>LC085351</Hit_accession>
+  <Hit_len>1381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>623</Hsp_hit-from>
+      <Hsp_hit-to>1266</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|985480710|dbj|LC085349.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, isolate: S-117</Hit_def>
+  <Hit_accession>LC085349</Hit_accession>
+  <Hit_len>1394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1127.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>633</Hsp_hit-from>
+      <Hsp_hit-to>1276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>633</Hsp_identity>
+      <Hsp_positive>633</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|985480721|dbj|LC085360.1|</Hit_id>
+  <Hit_def>Cantharellus sp. JPN1 genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, specimen_voucher: TNS-F-61926</Hit_def>
+  <Hit_accession>LC085360</Hit_accession>
+  <Hit_len>1437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1123.88</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>634</Hsp_hit-from>
+      <Hsp_hit-to>1277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>632</Hsp_identity>
+      <Hsp_positive>632</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGG-TTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAA-TTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCRAGCTGAGTTTTCCAATGGGTTTTTAAATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGAGAACTGATCCAGTGTAACCGTTGGTTTAGCTGGGGATTGGGCTTGCTTGGGGCAGTTGCTCTGGCTTGCCTCAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||| |||| | |||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1530731760|gb|MK256925.1|</Hit_id>
+  <Hit_def>Cantharellus subalbidus voucher JLF3397 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MK256925</Hit_accession>
+  <Hit_len>751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1110.96</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>613</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>609</Hsp_identity>
+      <Hsp_positive>609</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>613</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAG</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTATAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTATCATTATCATCATCATTACTATGGGTTACCTCAGGTCAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1169191378|gb|KX592727.1|</Hit_id>
+  <Hit_def>Cantharellus enelensis voucher MR3-021 (UWO) internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX592727</Hit_accession>
+  <Hit_len>1585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1109.11</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>630</Hsp_identity>
+      <Hsp_positive>630</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>643</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATT-GGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACAGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTATAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTATCATTATCATTA-C-T----ATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| | | |    ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1169191377|gb|KX592725.1|</Hit_id>
+  <Hit_def>Cantharellus enelensis voucher MR3-020 (UWO) internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KX592725</Hit_accession>
+  <Hit_len>1706</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1109.11</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>642</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>630</Hsp_identity>
+      <Hsp_positive>630</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>643</Hsp_align-len>
+      <Hsp_qseq>CTACACGCGGTGCCCCTGTTCTTGACTGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTTTAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAATTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTCGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATT-GGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACCAGCAATTATCATTATCATCATCATTACCATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_qseq>
+      <Hsp_hseq>CTACACGCGGTGCCCCTGTTCTTGACAGATTAGGTCTATAACATCAAGCTGAGTTTTCCAATGGGTTTATAGATAACTCTCAACAATGGATCTCTAGGCTCTTGCATCGATGAAGAACGCAGTGAACTGCGATAACTGGTGTGAGTTGCATGGCACTTCTAATCTAACACCAAGCGAATCATCGAGTCTTTGAACGCAAACGGCACCCTTCCAGTCCATTCCAAAGCGGTGGCGGAGGATGAAGACAAGGGTATCTCTGGCTGAGGGTAATGGGAACTGATCCAGTGTAACCGTTGGTTAGCTGGGGATTGGGCTTGCTTGGGGTAATTGCTCTGGCTTGCCTTAAAATCAAGCGTTGTGTGGATTGGACTTTCAAGCATGCATTGGGGGACGCAGGCTCTGCGCTATGGCAAGCCCTTGACCGTCATAGGTGCTTTGATTGGGGTTTTCAGTCTAGCCAACAAGGCTGGGTTGAAGGACTTTGGGGCTGCATTGGGGGCGCAAGGGCAGCTCTGTTCGTGGCGTCCGATGACCGTCATGATGCATGCGTGATTGGACTTCAACTAGCAATTATCATTATCATTA-C-T----ATGGGTTACCTCAGGTCAGAGAAGACTACCCGCTGGACTTAAGCATATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| | | |    ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>53470405</Statistics_db-num>
+      <Statistics_db-len>234271555109</Statistics_db-len>
+      <Statistics_hsp-len>37</Statistics_hsp-len>
+      <Statistics_eff-space>708958694178448</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

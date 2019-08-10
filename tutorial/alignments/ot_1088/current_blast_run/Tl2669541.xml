@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>2975</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>2975</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|84796236|gb|DQ301565.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A ATP synthase subunit 6-like (ATP6) gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ301565</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1190.36</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>681</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>644</Hsp_identity>
+      <Hsp_positive>644</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>644</Hsp_align-len>
+      <Hsp_qseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATACTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCACTATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATACTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCACTATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|84796275|gb|DQ301597.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. CBS 758.79 ATP synthase subunit 6 (ATP6) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>DQ301597</Hit_accession>
+  <Hit_len>674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1153.43</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>664</Hsp_hit-from>
+      <Hsp_hit-to>13</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>644</Hsp_identity>
+      <Hsp_positive>644</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>652</Hsp_align-len>
+      <Hsp_qseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCT-TCTACTC-TATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATACTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTG-C-A-C-TA-T-TCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTCTCTACTCATATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATACTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGTCTATCATAGTGTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | | | || | ||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|84796390|gb|DQ301695.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A RNA polymerase II second largest subunit (RPB2) gene, partial sequence</Hit_def>
+  <Hit_accession>DQ301695</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1122.04</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1215</Hsp_query-from>
+      <Hsp_query-to>1821</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>607</Hsp_identity>
+      <Hsp_positive>607</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>ATAACTTGGCCTTGATGTCGTGTATATCTGTTGGATCATTATCTGGTACCGGTCATCGAGTTTTTGGAGGAGTGGGGACTGGAAAGTCTCGAGGAGAACGCCAGTGGATCCGGTAGCGCGACCAAGGTCTTTGTCAATGGTGTCTGGCTCGGAATCCATCGCAATGCCCCGGTCCTTGTCAAAACTCTACACCGCCTACGACGCATGGACCACATTAACTCCGAAGTCAGCATTGTTCGCGACATTCGCGAAAAGGAGCTTCGACTATACACCGATGCTGGTCGTGTCTGCCGCCCGCTCTTTATTGTCAACGACCAACAAAAGTTGACCCTCGAAAAGAAGCACATTGAATGGCTACAAAACGGCGTCGACGACAAGGGACAGGAGTTCAAGTGGAAGGTAATGGTCACGTATGGCGTCATCGAGTTGCTTGATGCTGATGAAGAGGAGACGGTCATGATCAGTATGACACCCGAAGATCTCGAGTATTCTCGCAGAACAGAGGGCGGCGGTTACATGTCTAATGTCAACGACCCTGATTGGGATCCTTCCGGCACGGCGCGCGTTAAGAGCGTCCCCAACGTTCACACTTGGACTCACTGCGATA</Hsp_qseq>
+      <Hsp_hseq>ATAACTTGGCCTTGATGTCGTGTATATCTGTTGGATCATTATCTGGTACCGGTCATCGAGTTTTTGGAGGAGTGGGGACTGGAAAGTCTCGAGGAGAACGCCAGTGGATCCGGTAGCGCGACCAAGGTCTTTGTCAATGGTGTCTGGCTCGGAATCCATCGCAATGCCCCGGTCCTTGTCAAAACTCTACACCGCCTACGACGCATGGACCACATTAACTCCGAAGTCAGCATTGTTCGCGACATTCGCGAAAAGGAGCTTCGACTATACACCGATGCTGGTCGTGTCTGCCGCCCGCTCTTTATTGTCAACGACCAACAAAAGTTGACCCTCGAAAAGAAGCACATTGAATGGCTACAAAACGGCGTCGACGACAAGGGACAGGAGTTCAAGTGGAAGGTAATGGTCACGTATGGCGTCATCGAGTTGCTTGATGCTGATGAAGAGGAGACGGTCATGATCAGTATGACACCCGAAGATCTCGAGTATTCTCGCAGAACAGAGGGCGGCGGTTACATGTCTAATGTCAACGACCCTGATTGGGATCCTTCCGGCACGGCGCGCGTTAAGAGCGTCCCCAACGTTCACACTTGGACTCACTGCGATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|84796238|gb|DQ301567.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-B(o) ATP synthase subunit 6-like (ATP6) gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ301567</Hit_accession>
+  <Hit_len>617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1062.94</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2372</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>617</Hsp_hit-from>
+      <Hsp_hit-to>12</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>597</Hsp_identity>
+      <Hsp_positive>597</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>AAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATACTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCAC-TA-TTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCAT-GATAC</Hsp_qseq>
+      <Hsp_hseq>AAACTTAGCTCTT-TACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAGATAGGAACAGCGAATGAGGTCTACCTACCATTCATCTATTCTCTATTTTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACAACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCACGTAGTTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATTGATAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||| |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|84796242|gb|DQ301571.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-K ATP synthase subunit 6-like (ATP6) gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ301571</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>983.538</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2421</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>566</Hsp_hit-from>
+      <Hsp_hit-to>9</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>550</Hsp_identity>
+      <Hsp_positive>550</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>558</Hsp_align-len>
+      <Hsp_qseq>ACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATACTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTG-CACT-ATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCAT-GATAC</Hsp_qseq>
+      <Hsp_hseq>ACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTTGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTGTACCTGCCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCTATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGTCACTGATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATTGATAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|84796296|gb|DQ301610.1|</Hit_id>
+  <Hit_def>Thanatephorus cucumeris strain AG-9 ATP synthase subunit 6-like (ATP6) gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ301610</Hit_accession>
+  <Hit_len>683</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>952.145</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>673</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>603</Hsp_identity>
+      <Hsp_positive>603</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATA-CTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCACTATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCA-TGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTT-TACTCTATAGTACTATTATTATTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAAAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTGTAAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAAGTATATCTT-CCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATAACTACATCTATCGTAGTAAGTTTAGGTCTAAGTTTAACAATCTTTATTGGAGTTACAATCTTAGCATTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATTCCATCGGGTTGTCCATTAGGATTAGTTCCTTTATTAGTATTAATCGAGTTAATCTCCTATTTTGCTAGAGCCGTATCTCTAGGGGTTCGATTGTTCGCCAATTTAATGGCAGGGCACACACTATTGAAAATACTTTCAACATTCCTATTCCAATTGTTCAACAGTGGAATTGTTGTTGCAATAATTACATTAGTGCCATTTGCACTATTCGTGGCTATCATAGGATTAGAAATTGGTGTTCAATTATAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||| ||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| || |||||  |||| ||||| || |||||||||||||||||| ||||||| ||||| |||||||| |||||| ||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||||||||||||||||||||||||||||| |||||| ||||||||| || |||||||| | |||||||||||||||||||| ||||| || |||||||| || ||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|84796314|gb|DQ301622.1|</Hit_id>
+  <Hit_def>Thanatephorus cucumeris strain CBS 970.96 ATP synthase subunit 6 (ATP6) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>DQ301622</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>946.605</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>653</Hsp_hit-from>
+      <Hsp_hit-to>10</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>602</Hsp_identity>
+      <Hsp_positive>602</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>ATT-ATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATA-CTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCACTATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTAATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTT-TACTCTATAGTACTATTATTATTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAAAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTGTAAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAAGTATATCTT-CCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATAACTACATCTATCGTAGTAAGTTTAGGTCTAAGTTTAACAATCTTTATTGGAGTTACAATCTTAGCATTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATTCCATCGGGTTGTCCATTAGGATTAGTTCCTTTATTAGTATTAATCGAGTTAATCTCCTATTTTGCTAGAGCCGTATCTCTAGGGGTTCGATTGTTCGCCAATTTAATGGCAGGGCACACACTATTGAAAATACTTTCAACATTCCTATTCCAATTGTTCAACAGTGGAATTGTTGTTGCAATAATTACATTAGTGCCATTTGCACTATTCGTGGCTATCATAGGATTAGAAATTGGTGTTCAATATAC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||| ||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| || |||||  |||| ||||| || |||||||||||||||||| ||||||| ||||| |||||||| |||||| ||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||||||||||||||||||||||||||||| |||||| ||||||||| || |||||||| | |||||||||||||||||||| ||||| || |||||||| || |||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|484399853|gb|KC352446.1|</Hit_id>
+  <Hit_def>Rhizoctonia solani strain AG3 Rhs1AP mitochondrion, complete genome</Hit_def>
+  <Hit_accession>KC352446</Hit_accession>
+  <Hit_len>235849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.912</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2967</Hsp_query-to>
+      <Hsp_hit-from>16019</Hsp_hit-from>
+      <Hsp_hit-to>16654</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>596</Hsp_identity>
+      <Hsp_positive>596</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>638</Hsp_align-len>
+      <Hsp_qseq>ATT-ATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATA-CTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCACTATTCGTGGCAATCATTGGGTTAGAAATAGGAGTT</Hsp_qseq>
+      <Hsp_hseq>ATTAATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTT-TACTCTATAGTACTATTATTATTAACCCTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTGTAAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAAGTATATCTT-CCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATAACTACATCTATCGTAGTAAGTTTAGGTCTAAGTTTAACAATCTTTATTGGAGTTACAATCTTAGCATTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATTCCATCGGGTTGTCCATTAGGATTAGTTCCTTTATTAGTATTAATCGAGTTAATCTCTTATTTTGCTAGAGCCGTATCTCTAGGGGTCCGATTGTTCGCCAATTTAATGGCAGGTCACACACTAATGAAAATACTTTCAACATTCCTATTCCAATTGTTCAACAGTGGAGTTGTTGTTGCAATATTAACATTAGTACCATTTGCACTATTCGTGGCTATCATAGGATTAGAAATTGGTGTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||| ||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| || |||||  |||| ||||| || |||||||||||||||||| ||||||||||||| |||||||| |||||| ||||||| ||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||||||||||||||||| |||| | ||||||||| |||| |||||| |||||||||||||||||||||| ||||| || |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|84796304|gb|DQ301615.1|</Hit_id>
+  <Hit_def>Thanatephorus cucumeris strain CBS 200.25 ATP synthase subunit 6 (ATP6) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>DQ301615</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.912</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>703</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>603</Hsp_identity>
+      <Hsp_positive>603</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>ATT-ATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATA-CTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCAC-TATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCA-TGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTAATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTT-TACTCTATAGTACTATTATTATTAACCCTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTGTAAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAAGTATATCTT-CCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATAACTACATCTATCGTAGTAAGTTTAGGTCTAAGTTTAACAATCTTTATTGGAGTTACAATCTTAGCATTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATTCCATCGGGTTGTCCATTAGGATTAGTTCCTTTATTAGTATTAATCGAGTTAATCTCTTATTTTGCTAGAGCCGTATCTCTAGGGGTCCGATTGTTCGCCAATTTAATGGCAGGTCACACACTAATGAAAATACTTTCAACATTCCTATTCCAATTGTTCAACAGTGGAGTTGTTGTTGCAATATTAACATTAGTACCATTTGCACGTATTCGTGGCTATCATAGGATTAGAAATTGGTGTTCAATTATAC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||| ||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| || |||||  |||| ||||| || |||||||||||||||||| ||||||||||||| |||||||| |||||| ||||||| ||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||||||||||||||||| |||| | ||||||||| |||| |||||| |||||||||||| |||||||||| ||||| || |||||||| || ||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|84796283|gb|DQ301601.1|</Hit_id>
+  <Hit_def>Thanatephorus cucumeris strain AG-21 ATP synthase subunit 6-like (ATP6) gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ301601</Hit_accession>
+  <Hit_len>694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>941.065</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>683</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>601</Hsp_identity>
+      <Hsp_positive>601</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>646</Hsp_align-len>
+      <Hsp_qseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATA-CTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTGCAC-TATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTTAACTCTATAGTACTATTATTATTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAAAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTGTAAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAAGTATATCTT-CCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATAACTACATCTATCGTAGTAAGTTTAGGTCTAAGTTTAACAATCTTTATTGGAGTTACAATCTTAGCATTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATTCCATCGGGTTGTCCATTAGGATTAGTTCCTTTATTAGTATTAATCGAGTTAATCTCCTATTTTGCTAGAGCCGTATCTCTAGGGGTTCGATTGTTCGCCAATTTAATGGCAGGTCACACACTATTGAAAATACTTTCAACATTCCTATTCCAATTGTTCAACAGTGGAATTGTTGTTGCAGTTATTACATTAGTACCATTTGCACGTATTCGTGGCTATCATAGGATTAGAAATTGGTGTTCAATATAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||| ||||||| ||||||||||||||||||||||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||| ||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| || |||||  |||| ||||| || |||||||||||||||||| ||||||| ||||| |||||||| |||||| ||||||||||||||||||||||||||||||| || ||||||||| ||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||  |||||||| |||||||||||| |||||||||| ||||| || |||||||| || |||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|84796286|gb|DQ301603.1|</Hit_id>
+  <Hit_def>Thanatephorus cucumeris strain AG-3 ATP synthase subunit 6-like (ATP6) gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>DQ301603</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>937.372</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2332</Hsp_query-from>
+      <Hsp_query-to>2975</Hsp_query-to>
+      <Hsp_hit-from>656</Hsp_hit-from>
+      <Hsp_hit-to>11</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>602</Hsp_identity>
+      <Hsp_positive>602</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>ATT-ATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTTCTACTCTATAGTATTATTATTTTTAACACTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAACTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTATCAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAGGTATA-CTTACCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATTACTACATCTATCGTAGTAAGTTTAGGTTTAAGTGTAACAATCTTTATTGGAGTTACAATCTTAGCTTTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATCCCATCAGGATGTCCGCTAGGCTTAGTACCCTTATTAGTATTAATCGAGCTAATCTCTTATTTAGCTAGAGCAGTATCTTTAGGGGTTCGATTGTTCGCCAATTTAATGGCTGGGCACACACTAATGAAAATTCTTTCAACATTCCTATTCCAATTGTTCAACACTGGAATCGTTGTTGCAGTATTTACATTAATACCATTTG-CAC-TATTCGTGGCAATCATTGGGTTAGAAATAGGAGTTCATGATAC</Hsp_qseq>
+      <Hsp_hseq>ATTAATGCACCTATATTAGGTTTCTTTAATTTAACTTTAACAAACTTAGCTCTT-TACTCTATAGTACTATTATTATTAACCCTAGGTTTACACTTTGTGTCAAGTAATAATAGAAAATTAGTTCCATCTAAATGGTCTATTGCTCTAGAAAGTTCATTTGCAAGTGTAAACACAATGGTTAGAGATCAAATAGGAACAGCGAATGAAGTATATCTT-CCATTCATCTATTCTCTATTCTTTTTCATTATCATTGCTAACCTAACAGGTAATGTGCCTTATAACTATACTATAACTACATCTATCGTAGTAAGTTTAGGTCTAAGTTTAACAATCTTTATTGGAGTTACAATCTTAGCATTATCAATTCACAAAGTAAGATTCTTTTCATTCTTTATTCCATCGGGTTGTCCATTAGGATTAGTTCCTTTATTAGTATTAATCGAGTTAATCTCTTATTTTGCTAGAGCCGTATCTCTAGGGGTCCGATTGTTCGCCAATTTAATGGCAGGTCACACACTAATGAAAATACTTTCAACATTCCTATTCCAATTGTTCAACAGTGGAGTTGTTGTTGCAATATTAACATTAGTACCATTTGACACGTATTCGTGGCTATCATAGGATTAGAAATTGGTGTTCAATATAC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||| ||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||| ||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| || |||||  |||| ||||| || |||||||||||||||||| ||||||||||||| |||||||| |||||| ||||||| ||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||||||||||||||||| |||| | ||||||||| |||| |||||| ||||||||| ||| |||||||||| ||||| || |||||||| || |||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1694437038|gb|MN106361.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. isolate AG-A TR55R4 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MN106361</Hit_accession>
+  <Hit_len>637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>637</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1625808092|gb|MK850319.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. isolate DS54-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK850319</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1626707372|gb|MK733974.2|</Hit_id>
+  <Hit_def>Ceratobasidium sp. isolate Garlic root internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK733974</Hit_accession>
+  <Hit_len>581</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1433501317|gb|MH666073.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate R25 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH666073</Hit_accession>
+  <Hit_len>650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1226075094|gb|MF070693.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-YJLC-5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070693</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1226075093|gb|MF070692.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-YJLC-4 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070692</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1226075092|gb|MF070691.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-YJLC-3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070691</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1226075091|gb|MF070690.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-YJLC-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070690</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1226075090|gb|MF070689.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-YJLC-1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070689</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1226075089|gb|MF070688.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-SHMM-7 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070688</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1226075088|gb|MF070687.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-SHMM-6 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070687</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1226075087|gb|MF070686.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-SHMM-5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070686</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1226075086|gb|MF070685.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-SHMM-4 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070685</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1226075085|gb|MF070684.1|</Hit_id>
+  <Hit_def>Ceratobasidium sp. AG-A isolate SHX-SHMM-3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MF070684</Hit_accession>
+  <Hit_len>658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>918.905</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>497</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>497</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>497</Hsp_align-len>
+      <Hsp_qseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_qseq>
+      <Hsp_hseq>CTTCAGTCTGCTAAATTCATATACAAACTCATTTAATTGAACTGAATGTACTTGATGTAACGCATCATTAAACTAAGTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCTCCTTGGTATTCCTTGGAGCATGCCTGTTTGAGTATCATGAAATTCTCAAAGTAAACCTTTTGTTAATTCAACTGGCCTTGCTTTGGATTTGGAGGTCTTGCAGATGTCACAGTCTGCTCCTCTTAAATATATTAGCTGGATCTCAGTATACACTTGGTTCCACTCGGCGTGATAAGTATCACTCGCTGAGGACACTGTAAAAGGTGGCCAGGCAATGCAGATGAACCGCTTCTAATAGTCCATTCACTTGGACAATTACATTTATGATCTGATCTCAAATCAGGTAGGACTACCCGCTGAACTTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>53470405</Statistics_db-num>
+      <Statistics_db-len>234271555109</Statistics_db-len>
+      <Statistics_hsp-len>37</Statistics_hsp-len>
+      <Statistics_eff-space>682477275064312</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,60 @@
+otu_id	^ncbi:taxon	^ot:ottTaxonName	^ncbi:title	^ot:taxonLink	^ncbi:TaxonName	^physcraper:TaxonName	^physcraper:status	^ot:ottId	^ncbi:accession	^ot:originalLabel	^ncbi:gi	^physcraper:last_blasted
+Tl2669559	1651155	Thanatephorus cucumeris	-	{u'@ubio': u'3187105', u'@uniprot': u'107832', u'@tb:identifier.taxonVariant': 67318, u'@tb:identifier.taxon': 25243}	-	-	original	805398	-	Thanatephorus cucumeris AG.3_PT_CBS_200.25	-	2019/08/08
+Tl2669518	184409	Ceratobasidium papillatum	-	{u'@ubio': u'3029718', u'@uniprot': u'184409', u'@tb:identifier.taxonVariant': 106763, u'@tb:identifier.taxon': 45657}	-	-	original	956539	-	Ceratobasidium papillatum CBS_570.83	-	2019/08/08
+otuPS6	104202	Clavulina cinerea	gi|157057268|gb|EU118616.1| Clavulina cinerea voucher KHL 11694 (GB) 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Clavulina_cinerea	Clavulina_cinerea	new	990576	EU118616.1	-	157057268	None
+Tl2669533	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.Ba C.484	-	2019/08/08
+Tl2669557	68756	Clavulina (genus in Opisthokonta)	-	-	-	-	original	160854	-	Clavulina sp. AFTOL ID 667	-	2019/08/08
+otuPS2	68757	None	gi|545698352|gb|KF218965.1| Clavulina cristata internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Clavulina_cristata	Clavulina_cristata	new	None	KF218965.1	-	545698352	None
+Tl2669523	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.D CBS 438.80	-	2019/08/08
+Tl2669522	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.E CBS 137.82	-	2019/08/08
+Tl2669521	5251	Ceratobasidium	-	{u'@ubio': u'10294120', u'@uniprot': u'358912', u'@tb:identifier.taxonVariant': 490354, u'@tb:identifier.taxon': 313999}	-	-	original	234859	-	Ceratobasidium sp. CBS 139.82	-	None
+Tl2669520	5251	Ceratobasidium	-	{u'@ubio': u'10294121', u'@uniprot': u'358913', u'@tb:identifier.taxonVariant': 490355, u'@tb:identifier.taxon': 314000}	-	-	original	234859	-	Ceratobasidium sp. CBS 148.54	-	2019/08/08
+Tl2669527	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.5 GM 10	-	2019/08/08
+Tl2669526	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.10 CBS 446.84	-	None
+Tl2669525	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus praticola Forest_Labs	-	None
+Tl2669524	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.D CBS 132.82	-	2019/08/08
+Tl2669529	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus praticola AG.4_HGI_SJ02	-	2019/08/08
+Tl2669528	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.E F.18	-	2019/08/08
+Tl2669541	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.A C.538	-	2019/08/08
+Tl2669540	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.D CBS 223.51	-	2019/08/08
+Tl2669543	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus praticola AG.4_HGIII	-	2019/08/08
+Tl2669564	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.Bo SIR.2	-	None
+Tl2669545	285437	Dentinum albomagnum	-	{u'@ubio': u'3053868', u'@uniprot': u'285437', u'@tb:identifier.taxonVariant': 86950, u'@tb:identifier.taxon': 37588}	-	-	original	494110	-	Hydnum albomagnum AFTOL_ID_471	-	2019/08/08
+Tl2669544	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.G AH.9	-	2019/08/08
+Tl2669547	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.8 CBS 101.782	-	None
+Tl2669560	1651155	Thanatephorus cucumeris	-	{u'@ubio': u'3187105', u'@uniprot': u'107832', u'@tb:identifier.taxonVariant': 67318, u'@tb:identifier.taxon': 25243}	-	-	original	805398	-	Thanatephorus cucumeris AG.2_IV_SA1.1	-	2019/08/08
+Tl2669549	5242	Thanatephorus	-	{u'@ubio': u'10294143', u'@uniprot': u'358935', u'@tb:identifier.taxonVariant': 490375, u'@tb:identifier.taxon': 314022}	-	-	original	758166	-	Thanatephorus sp. CBS 293.31	-	2019/08/08
+Tl2669548	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.7 	-	None
+otuPS1	68795	Botryobasidium subcoronatum	gi|221852316|gb|EU909344.1| Botryobasidium subcoronatum 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Botryobasidium_subcoronatum	Botryobasidium_subcoronatum	new	463254	EU909344.1	-	221852316	None
+Tl2669567	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.F AH.9	-	None
+otuPS8	68795	Botryobasidium subcoronatum	gi|157057259|gb|EU118607.1| Botryobasidium subcoronatum voucher KHL s.n. (GB) internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Botryobasidium_subcoronatum	Botryobasidium_subcoronatum	new	463254	EU118607.1	-	157057259	None
+Tl2669566	1651155	Thanatephorus cucumeris	-	{u'@ubio': u'3187105', u'@uniprot': u'107832', u'@tb:identifier.taxonVariant': 67318, u'@tb:identifier.taxon': 25243}	-	-	original	805398	-	Thanatephorus cucumeris AG.3_PT_Rhs1AP	-	2019/08/08
+otuPS4	467949	Haplotrichum curtisii	gi|157057281|gb|EU118629.1| Haplotrichum curtisii voucher KHL 12950 (GB) 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Haplotrichum_curtisii	Haplotrichum_curtisii	new	905037	EU118629.1	-	157057281	None
+Tl2669565	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus sasakii AG.1.C_CBS_523.96	-	2019/08/08
+Tl2669534	5251	Ceratobasidium	-	{u'@ubio': u'10294125', u'@uniprot': u'358917', u'@tb:identifier.taxonVariant': 490359, u'@tb:identifier.taxon': 314004}	-	-	original	234859	-	Ceratobasidium sp. CBS 476.82	-	None
+Tl2669535	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus praticola AG.4_HGI_AH.1	-	2019/08/08
+Tl2669536	885898	Cantharellus cibarius	-	{u'@ubio': u'3103211', u'@uniprot': u'36066', u'@tb:identifier.taxonVariant': 11532, u'@tb:identifier.taxon': 4782}	-	-	original	321275	-	Cantharellus cibarius AFTOL_ID_607	-	2019/08/08
+Tl2669542	569712	Ceratobasidium noxium	-	{u'@ubio': u'3295889', u'@uniprot': u'569712', u'@tb:identifier.taxonVariant': 660904, u'@tb:identifier.taxon': 498915}	-	-	original	527177	-	Ceratobasidium noxium CBS_154.35	-	2019/08/08
+Tl2669530	1651156	Thanatephorus pendulus	-	-	-	-	original	3798743	-	Thanatephorus pendulus AG.1.A_CBS_700.82	-	2019/08/08
+Tl2669531	0	Ceratobasidium globisporum	-	-	-	-	original	3798758	-	Ceratobasidium globisporum AG.Bb_CBS_569.83	-	2019/08/08
+Tl2669532	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus sasakii AG.1.B_CBS_206.84	-	2019/08/08
+Tl2669519	1651155	Thanatephorus cucumeris	-	{u'@ubio': u'3187105', u'@uniprot': u'107832', u'@tb:identifier.taxonVariant': 67318, u'@tb:identifier.taxon': 25243}	-	-	original	805398	-	Thanatephorus cucumeris AG.2.1_CBS_208.84	-	2019/08/08
+Tl2669517	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.Q C.620	-	2019/08/08
+Tl2669538	0	Ceratobasidium sphaerosporum	-	-	-	-	original	3798755	-	Ceratobasidium sphaerosporum CBS_571.83	-	2019/08/08
+Tl2669539	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.R CBS 136.82	-	2019/08/08
+Tl2669562	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.9 CBS 970.96	-	2019/08/08
+Tl2669552	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus sasakii AG.1.C_CBS_140.82	-	2019/08/08
+Tl2669553	1651155	Thanatephorus cucumeris	-	{u'@ubio': u'3187105', u'@uniprot': u'107832', u'@tb:identifier.taxonVariant': 67318, u'@tb:identifier.taxon': 25243}	-	-	original	805398	-	Thanatephorus cucumeris AG.2_IIIB_SJ07	-	2019/08/08
+Tl2669550	154754	Tulasnella pruinosa	-	{u'@ubio': u'3142593', u'@uniprot': u'154754', u'@tb:identifier.taxonVariant': 70247, u'@tb:identifier.taxon': 30069}	-	-	original	755677	-	Tulasnella pruinosa AFTOL_ID_610	-	2019/08/08
+Tl2669551	409892	Botryobasidium simile	-	{u'@ubio': u'3205358', u'@uniprot': u'409892', u'@tb:identifier.taxonVariant': 386802, u'@tb:identifier.taxon': 357002}	-	-	original	218492	-	Botryobasidium simile GEL2348	-	2019/08/08
+Tl2669556	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.P C.158	-	2019/08/08
+Tl2669561	1026879	Thanatephorus fusisporus	-	{u'@ubio': u'3187877', u'@uniprot': u'5243', u'@tb:identifier.taxonVariant': 85733, u'@tb:identifier.taxon': 37067}	-	-	original	758534	-	Uthatobasidium fusisporum AFTOL_ID_611	-	None
+Tl2669554	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus praticola AG.4_HGII_Rh.165	-	2019/08/08
+Tl2669555	1651154	Rhizoctonia endophytica	-	-	-	-	original	3798400	-	Rhizoctonia endophytica Forest_Labs	-	None
+otuPS7	386466	Ceratobasidium sp. FO 38200	gi|99866602|gb|DQ520098.1| Ceratobasidium sp. FO 38200 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Ceratobasidium_sp._FO_38200	Ceratobasidium_sp._FO_38200	new	644396	DQ520098.1	-	99866602	None
+Tl2669558	5251	Ceratobasidium	-	-	-	-	original	234859	-	Ceratobasidium sp. AG.U CBS 135.82	-	2019/08/08
+Tl2669546	1651155	Thanatephorus cucumeris	-	-	-	-	original	805398	-	Thanatephorus sasakii AG.1.C_CBS_207.84	-	2019/08/08
+otuPS3	68759	Hydnum repandum	gi|383088081|gb|JN649348.1| Hydnum repandum voucher KHL8552 (GB) 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	-	Hydnum_repandum	Hydnum_repandum	new	160851	JN649348.1	-	383088081	None
+Tl2669537	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.9 S.21	-	2019/08/08
+otuPS5	154754	Tulasnella pruinosa	gi|88601061|gb|DQ381839.1| Tulasnella pruinosa RNA polymerase II second largest subunit (RPB2) gene, partial cds	-	Tulasnella_pruinosa	Tulasnella_pruinosa	new	755677	DQ381839.1	-	88601061	None
+Tl2669563	5242	Thanatephorus	-	-	-	-	original	758166	-	Thanatephorus sp. AG.6 HI OHT.1.1	-	2019/08/08

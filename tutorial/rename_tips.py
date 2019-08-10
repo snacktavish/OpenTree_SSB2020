@@ -9,6 +9,7 @@ estimated_tree = "turtle_iqtree.tre"
 estimated_tree_OTT = "turtle_iqtree_OTT.tre"
 
 
+print("Using {} to relabel {}. output in {}".format(json_file, estimated_tree, estimated_tree_OTT))
 #Use the bulk TNRS output to match your existing tree to standard labels
 tt = TreeTax(otu_json=json_file, treefrom=estimated_tree)
 

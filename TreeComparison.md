@@ -1,4 +1,5 @@
 # Comparing and updating phylogenetic trees
+### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
 There any many ways to generate phylogenetic trees!  

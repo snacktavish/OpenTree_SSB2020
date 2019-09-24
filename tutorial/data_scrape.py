@@ -12,7 +12,7 @@ from peyotl.nexson_syntax import (
 )
 
 
-configfi = "aws.config"
+configfi = "localaws.config"
 study_id = "ot_350"
 tree_id = "Tr53297"
 
@@ -21,7 +21,7 @@ alnfile = "alignments/ot_350.aln"
 assert os.path.isfile(alnfile) #check the file exists and the path is correct
 
 
-workdir ="scrape_ot_350"
+workdir ="scrape_ot_350_trim"
 
 
 

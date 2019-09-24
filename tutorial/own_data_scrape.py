@@ -13,29 +13,28 @@ from physcraper import opentree_helpers
 from physcraper.aligntreetax import generate_ATT_from_files
 
 
-configfi = "aws.config"
+configfi = "ncbi.config"
 workdir ="own_data"
 
+physcraper_location = "/home/ejmctavish/projects/otapi/physcraper"
 
-alnfi = "/class/molevol-software/physcraper/tests/data/tiny_test_example/test.fas"
+alnfi = "{loc}/tests/data/tiny_test_example/test.fas".format(loc=physcraper_location)
 mattype ="fasta"
-treefi = "/class/molevol-software/physcraper/tests/data/tiny_test_example/test.tre"
+treefi = "{loc}/tests/data/tiny_test_example/test.tre".format(loc=physcraper_location)
 schema_trf = "newick"
 
 
 ## What taxon do you want to include new seqs from? Search for it on Open Tree, and se the id here:
 ## This is genus Senecio
-
-ingroup_mrca ='18794'
+ingroup_mrca ='723076'
 
 
 ## input mappings from your labels to OpenTree, via bulk TNRS
-bulk_names_json = '/class/molevol-software/physcraper/tests/data/tiny_test_example/main.json'
+bulk_names_json = '{loc}/tests/data/tiny_test_example/main.json'.format(loc=physcraper_location)
 otu_dict = opentree_helpers.bulk_tnrs_load(bulk_names_json)
 
 
 ## Need to write them to a file for the ATT from file load
-
 if not os.path.exists(workdir):
     os.makedirs(workdir)
 
@@ -58,7 +57,7 @@ data_obj =  generate_ATT_from_files(seqaln=alnfi,
                                     ingroup_mrca=ingroup_mrca)
 
 
-sys.stdout.write("{} taxa in alignement and tree\n".format(len(data_obj.aln)))
+sys.stdout.write("{} taxa in alignment and tree\n".format(len(data_obj.aln)))
 
 ## Note: often tre viewers cannot handle trees with multiple tips with the same label, 
 #so write labelled has a default of "norepeats = True", and modifies the label to be unique
@@ -75,7 +74,7 @@ scraper = physcraper.PhyscraperScrape(data_obj, ids)
 
 # to get data from NCBI, align it and estimate a tree using RaxML
 # This call wraps together a series of steps, including
-## Blasting the sequences that are already in the alignment
+## Blasting the sequences that are already in the alignment  - [ ]  Default broken taxon image
 # scraper.run_blast_wrapper()
 ## Reading in the new sequences, and dropping identical sequences
 # scraper.read_blast_wrapper()

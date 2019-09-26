@@ -12,7 +12,7 @@ from peyotl.nexson_syntax import (
 )
 
 
-configfi = "localaws.config"
+configfi = "ncbi.config"
 study_id = "ot_350"
 tree_id = "Tr53297"
 

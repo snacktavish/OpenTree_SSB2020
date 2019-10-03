@@ -95,8 +95,8 @@ In order to do so, you need to map taxon names to unique identifiers.
 
 Get the tutorial folder using
 ```
-    git clone https://github.com/snacktavish/Mole2019.git
-    cd  Mole2019/tutorial
+    git clone https://github.com/snacktavish/OpenTree_SSB2020.git
+    cd  OpenTree_SSB2020/tutorial
 ```
 
 The names of the taxa you included used in your tree estimation in Minh's lab are in the file

@@ -99,7 +99,7 @@ Get the tutorial folder using
     cd  OpenTree_SSB2020/tutorial
 ```
 
-The names of the taxa you included used in your tree estimation in Minh's lab are in the file
+The names of the taxa you will search for are saved in
 'species_names.txt'
 
 

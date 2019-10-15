@@ -2,7 +2,7 @@
 ### Work in progress - please contact ejmctavish@ucmerced.edu with any issues or questions.
 
 
-There any many ways to generate phylogenetic trees!  
+There any many ways to generate phylogenetic trees!
 All kinds of data, lots of analysis methods.
 We've talked a lot about estimating trees.
 
@@ -18,8 +18,8 @@ In this tutorial we will walk through:
 
 
 # The Open Tree of Life
-The Open Tree of Life (https://opentreeoflife.github.io/) is a project that unties phylogenetic inferences and taxonomy to provide a synthetic estimate of species relationships across the entire tree of life.  
-![](img/otol_logo.png)  
+The Open Tree of Life (https://opentreeoflife.github.io/) is a project that unties phylogenetic inferences and taxonomy to provide a synthetic estimate of species relationships across the entire tree of life.
+![](img/otol_logo.png)
 
 
 This tree currently includes 2.7 million tips.
@@ -109,7 +109,7 @@ We will map them to unique identifiers using the Open Tree TNRS bulk upload tool
 (This is a brand new beta-version of this functionality, so some parts are a bit finicky).
 
 *Try this*
-  * Click on "add names", and upload the names file. (tutorial/species_names.txt)  
+  * Click on "add names", and upload the names file. (tutorial/species_names.txt)
   * In the mapping options section,
     - select 'animals' to narrow down the possibilities and speed up mapping
     - set it to replace '\_' with ' '
@@ -187,7 +187,7 @@ Open 'tutorial/rename_tips.py'.
 
 This is a very simple script that takes your mapped labels, and uses the conversion from 'original name' to replace the tip names on your tree with the standardized names
 
-Run this file. If you want to, replace the path to my turtle tree ('turtle_iqtree.tre') estimate with the one you estimated in Minh's lab
+Run this file. If you want to, replace the path to my turtle tree ('turtle_iqtree.tre') estimate with another one you estimated or from the literature.
 ```
   $ python rename_tips.py
 ```
@@ -226,7 +226,7 @@ However, if you have access to a single gene alignment, and a tree, you can auto
 
 While genome scale data is increasing rapidly - there are still large quantities of gene-sequence data being uploaded to NCBI GenBank.
 
-<img src="img/seq_data.png" alt="drawing" width="400"/>  
+<img src="img/seq_data.png" alt="drawing" width="400"/>
 
 These data are often appropriate for looking at phylogenetic relationships.
 
@@ -245,7 +245,7 @@ We'll walk through the configuration file 'aws.config' , and the script 'data_sc
   $ python data_scrape.py
 ```
 (NB this script has been taking around 30 minutes on the cluster)
-The output is (perhaps overly) verbose. Take a look at it!   
+The output is (perhaps overly) verbose. Take a look at it!
 Don't worry about the 'skipping acc xxxx, incorrect format' warnings. Those are RNA results which Physcraper cannot currently handle.
 
 One it is done running, take a look at the output:
@@ -259,7 +259,7 @@ One it is done running, take a look at the output:
 
 While this analysis is running, I will demonstrate uploading the updated tree file to https://devtree.opentreeoflife.org/curator
 
-**For real analyses, you would want to bootstrap your tree!**  
+**For real analyses, you would want to bootstrap your tree!**
 But for in lab that is slow, so we will just look at the ML tree.
 This example ML tree actually has low support.
 
@@ -280,12 +280,12 @@ https://tree.opentreeoflife.org/curator
 
 
 ##  Exercise
-<img src="img/mastigias.jpg" alt="drawing" width="400"/>  
+<img src="img/mastigias.jpg" alt="drawing" width="400"/>
 
-A student is studying jellyfish that live in Jellyfish Lake in Palau.   
+A student is studying jellyfish that live in Jellyfish Lake in Palau.
 Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
 They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
-There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema.  
+There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema.
 *Which genome should they use to assemble their transcriptome?*
 
 
@@ -294,7 +294,7 @@ There are genomic resources available in the genera Cassiopea, Aurelia and Rhopi
 **Q)** What studies support this inference?
 
 One of the genera got renamed! Why?
-Look in the synthetic tree, to assess what is happened.  
+Look in the synthetic tree, to assess what is happened.
 
 **Q)**  Which genus?
 
@@ -358,7 +358,7 @@ Tutorial on rotl at, https://ropensci.org/tutorials/rotl_tutorial/
 Tutorial on linking data from OpenTree with species locations from GBIF,
 https://mctavishlab.github.io/BIO144/labs/rotl-rgbif.html
 
-<img src="img/rotlrgbif.png" alt="drawing" width="400"/>  
+<img src="img/rotlrgbif.png" alt="drawing" width="400"/>
 
 
 ### Zoom around

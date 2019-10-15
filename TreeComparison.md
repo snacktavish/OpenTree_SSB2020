@@ -187,7 +187,7 @@ Open 'tutorial/rename_tips.py'.
 
 This is a very simple script that takes your mapped labels, and uses the conversion from 'original name' to replace the tip names on your tree with the standardized names
 
-Run this file. If you want to, replace the path to my turtle tree ('turtle_iqtree.tre') estimate with another one you estimated or from the literature.
+Run this file. If you want to, replace the path to my turtle tree ('turtle_iqtree.tre') estimate with another tree you estimated or obtained from the literature.
 ```
   $ python rename_tips.py
 ```
@@ -208,7 +208,7 @@ Upload both trees to phylo.io
 **Q** How so?
 
 ## Taxon re-naming
-'Podarcis' is missing from the tree downloaded from OpenTree, and is replaces with a node labelled 'mrca'.
+'Podarcis' is missing from the tree downloaded from OpenTree, and is replaced with a node labelled 'mrca'.
 
 Let's look at the synthetic tree to see what is going on!
 
@@ -234,7 +234,7 @@ Using Physcraper we can use Blast to search for loci that are likely to be homol
 By using a starting tree and alignment, Physcraper, takes advantage of loci that previous researchers have assessed and deemed appropriate for the phylogentic scope.
 The search is limited to taxa that have been labeled as taxa within a user specified taxon or monophyletic group, or within the ingroup of the starting tree.
 
-These automated tree can provide a quick inference or potential relationships, of problems in the taxonomic assignments of sequences, and flag areas of potential systematic interest.
+These automated tree can provide a quick inference of potential relationships, of problems in the taxonomic assignments of sequences, and flag areas of potential systematic interest.
 
 We will update https://tree.opentreeoflife.org/curator/study/view/ot_350
 Crous P.W., Verkley G., Christensen M., Castaneda-ruiz R.F., & Groenewald J.Z. 2012. How important are conidial appendages?. Persoonia, 28: 126-137.
@@ -284,7 +284,7 @@ https://tree.opentreeoflife.org/curator
 
 A student is studying jellyfish that live in Jellyfish Lake in Palau.
 Check out https://www.youtube.com/watch?v=DhpaqFya2pg for a cool video of them swimming around!
-They are in genus 'Mastigias'. She needs to assemble a transcriptome, and wants to use an assembled reference genus.
+They are in genus 'Mastigias'. They need to assemble a transcriptome, and wants to use an assembled reference genus.
 There are genomic resources available in the genera Cassiopea, Aurelia and Rhopilema.
 *Which genome should they use to assemble their transcriptome?*
 
@@ -294,7 +294,7 @@ There are genomic resources available in the genera Cassiopea, Aurelia and Rhopi
 **Q)** What studies support this inference?
 
 One of the genera got renamed! Why?
-Look in the synthetic tree, to assess what is happened.
+Look in the synthetic tree, to assess what has happened.
 
 **Q)**  Which genus?
 
@@ -325,11 +325,11 @@ Upload it to the main website  https://tree.opentreeoflife.org/curator, and thos
 ### Update a different tree from OpenTree
 
 There are some alignments in the alignments folder labelled as 'StudyIdTreeId.aln'.
-Check out what the studies are on
-By going to https://tree.opentreeoflife.org/curator/study/view/{StudyId}
+Check out what the studies are
+by going to https://tree.opentreeoflife.org/curator/study/view/{StudyId}
 *Replace StudyId with the id of the study you are interested in*
 
-If any of them interest you, to try to scrape data for those taxa, by modifying data_scrape_alt
+If any of them interest you, try to scrape data for those taxa, by modifying data_scrape_alt
 
 Upload your extended tree to https://devtree.opentreeoflife.org/curator
 (requires a github login)
@@ -348,7 +348,7 @@ Generate a name-mapping file using the Bulk TNRS.
 then
 follow the example and instructions in `own_data_scrape.py`
 
-This doesn't work well currently for more that 50 taxa.
+This doesn't work well currently for more than 50 taxa.
 
 ### Unifying geographic and phylogenetic data using R/Rstudio
 There is a great package, [Rotl](https://github.com/ropensci/rotl) that makes it easy to access and work with OpenTree data in R.

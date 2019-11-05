@@ -4,175 +4,35 @@
 
 There any many ways to generate phylogenetic trees!
 All kinds of data, lots of analysis and methods.
-We've talked a lot about estimating trees, but...
+We've talked a lot about tools for estimating trees, but...
 
 **How can we contextualize our phylogenetic inferences in existing literature and taxonomy?**
 
 
 In this tutorial we will walk through:
-  - [Standardizing taxon names] (#)
+
+  - [The Open Tree of Life resource](mds/the-open-tree-of-life.html)
+
+  - [Standardizing taxon names](mds/tnrs.html)
+
+  - [Getting a subtree for your taxa](mds/getting-a-subtree.html)
+
   - [Getting existing trees for arbitrary sets of taxa] (#)
+
   - [Uploading trees to Open Tree of Life] (#)
+
   - [Visualizing conflict between estimates] (#)
+
   - [Updating an existing phylogeny with new data from GenBank] (#)
 
 
-# The Open Tree of Life
-The Open Tree of Life (https://opentreeoflife.github.io/) is a project that unties phylogenetic inferences and taxonomy to provide a synthetic estimate of species relationships across the entire tree of life.
-![](img/otol_logo.png)
-
-
-This tree currently includes 2.7 million tips.
-65,000 of these taxa have relationships inferred from phylogeny.
-
-The synthetic tree uses a combined taxonomy across a large number of taxonomy resources with evolutionary estimates from published phylogenetic studies.
-https://opentreeoflife.github.io/browse/
-
-
-## The synthetic tree
-
-## Tree Browser
-
-[https://tree.opentreeoflife.org](https://tree.opentreeoflife.org)
-is our interactive tree viewer.
-You can browse by  the synthetic tree and leave feedback.
-
-### Navigation
-
-Click on nodes to move through the tree.
-If you click the "Legend" button at the top, you will get an explanation
-    of what information the visual elements of the tree convey.
-
-### Seeing more info about a node
-
-You can reveal the "Properties panel" by clicking on "**ⓘ** Show Properties"
-    button or the "**ⓘ**" link that appears when your mouse is over a node or
-    branch in the tree.
-
-The properties panel contains:
-
-  * links to the taxon in our reference taxonomy (OTT) and other taxonomies
-  * the ID of the node
-  * the count of how many tips in the tree descend from the node
-  * information about how to download a Newick representation of the subtree
-      rooted at that node, and
-  * information about taxonomies and phylogenies that support or disagree with
-    that node. (e.g. https://tree.opentreeoflife.org/opentree/opentree10.4@mrcaott3089ott32977/Corytophaninae--Leiocephalus)
-
-Clicking on "**ⓘ** Hide Properties" will hide the panel so that you can see more
-    of the tree.
-
-### Feedback
-
-If you have feedback about the relationships that you see, use the "Add Comment" button.
-Comments that are entered here are stored as issues in our
-[feedback repository](https://github.com/OpenTreeOfLife/feedback/issues).
-
-
-## Taxonomy Browser
-
-[https://tree.opentreeoflife.org/taxonomy/browse](https://tree.opentreeoflife.org/taxonomy/browse?id=93302) is our browser for the Open Tree Taxonomy.
-That taxonomy is an input into our full synthetic tree and
-is used to help us align tips in different trees that refer to the same taxon.
-
-The taxonomy includes links to unique identifiers in other digitally available taxonomies, such as GBIF or NCBI.
-
-
-## Accessing data using the website
-Check out https://tree.opentreeoflife.org
-
-Search for your favorite organism!
-Don't agree with the relationships? Never fear! We'll see how to fix them by uploading new inferences.
-
-
-You can use the download a subtree of interest directly from the website.
-
-
-## Getting a tree for your taxa
-
-It is often more useful to access the pruned subtree for just the taxa you are interested in.
-In order to do so, you need to map taxon names to unique identifiers.
-
-Get the tutorial folder using
+Get the tutorial folder to work on your computer using
 ```
     git clone https://github.com/snacktavish/OpenTree_SSB2020.git
     cd  OpenTree_SSB2020/tutorial
 ```
 
-The names of the taxa you will search for are saved in
-'species_names.txt'
-
-
-One of the key challenges of comparing trees across studies is minor differences in names and naming.
-We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
-
-(This is a brand new beta-version of this functionality, so some parts are a bit finicky).
-
-*Try this*
-  * Click on "add names", and upload the names file. (tutorial/species_names.txt)
-  * In the mapping options section,
-    - select 'animals' to narrow down the possibilities and speed up mapping
-    - set it to replace '\_' with ' '
-  * Click "Map selected names"
-
-Exact matches will show up in green, and can be accepted by clicking "accept exact matches".
-
-A few taxa still show several suggested names. Click through to the taxonomy, and select the one that you think is correct based on the phylogenetic context. (The tree is in the tutorial file as well if you want to double check).
-
-Once you have accepted names for each of the taxa, click "save nameset".
-
-Download it to your laptop.
-Extract the files.
-Take a look at the human readable version (output/main.csv).
-
-*Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
-
-main.json contains the the same data in a more computer readable format.
-Transfer the main.json file to the tutorial folder on the cluster.
-
-### Using API's
-You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
-
-For example:
-```
-curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[292466, 267845, 316878]}'
-```
-For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs
-
-
-It is often more convenient to manipulate both trees and names within a scripting language.
-
-
-### Using Python
-We will use wrappers available in the python packages Physcraper and Peyotl to make it easier to work with the Open Tree Api's
-
-They are already installed on the cluster, in a python virtual environment.
-
-To run these analyses on the cluster, activate the python virtual environment (this loads the installed modules)
-```
-source /class/molevol-software/venv-physcraper/bin/activate
-
-```
-
-To install and run on your own laptop see the instructions on https://github.com/McTavishLab/physcraper/blob/master/INSTALL
-
-Your terminal should show **(venv-physcraper)** to the left of the bash prompt.
-
-### Getting a subtree
-Take a look at the script in the tutorials folder 'get_subtree.py'.
-This script gets the OpenTree ids from your taxonomy mapping file 'main.json',
-and uses them to get a tree for those taxa.
-
-Edit the location of your json file, and run get subtree.py
-```
-    $ python get_subtree.py
-```
-
-It will write two files out to your current working directory - the tree, 'synth_subtree.tre' and the citations of published trees that went into generating that tree, and support the relationships in it.
-
-Move both those files to your computer.
-Open the synthetic subtree in figtree to look at the placement of turtles.
-
+# MODULARIZE ALL THE FOLLOWING TOO
 
 ## Comparing trees
 Imagine that we want to get some more taxonomic context for our inferences that we made

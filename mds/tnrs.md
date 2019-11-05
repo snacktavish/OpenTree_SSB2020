@@ -1,18 +1,19 @@
 # Standardizing taxon names
 
-The names of the taxa you will search for are saved in
-'species_names.txt'
+One of the key challenges of comparing trees across studies is differences in taxon names because of spelling or taxonomic idiosincracies.
 
+A solution to this, is mapping taxon names to unique identifiers using the Open Tree Taxonomic Name Resolution Service (TNRS). Theer are two options to use this service (bulk and API?). The names of the taxa you will search for this tutorial are saved in 'species_names.txt'
 
-One of the key challenges of comparing trees across studies is minor differences in names and naming.
-We will map them to unique identifiers using the Open Tree TNRS bulk upload tool https://tree.opentreeoflife.org/curator/tnrs/
+## Open Tree TNRS bulk upload tool.
 
-(This is a brand new beta-version of this functionality, so some parts are a bit finicky).
+Access this tool at https://tree.opentreeoflife.org/curator/tnrs/
+
+This is a brand new beta-version of this functionality, so some parts are a bit finicky.
 
 *Try this*
-  * Click on "add names", and upload the names file. (tutorial/species_names.txt)
-  * In the mapping options section,
-    - select 'animals' to narrow down the possibilities and speed up mapping
+  * Click on "add names" (Second button at the top of the menu on the left), and upload the names file `tutorial/species_names.txt`. The "loading file" window will not close by itself.
+  * In the "mapping options" section (bottom of the menu to the left),
+    - select 'Animals' to narrow down the possibilities and speed up mapping
     - set it to replace '\_' with ' '
   * Click "Map selected names"
 
@@ -26,35 +27,13 @@ Download it to your laptop.
 Extract the files.
 Take a look at the human readable version (output/main.csv).
 
-*Make sure your mappings were saved! If you don't 'accept' matches, they don't download.*
+*Make sure your mappings were saved! If you do not **accept** matches (by clicking buttons), they do not download.*
 
 main.json contains the the same data in a more computer readable format.
-Transfer the main.json file to the tutorial folder on the cluster.
+Transfer the main.json file to the tutorial folder.
 
-### Using API's
-You can use the OpenTree API's to get the tree for a subset of taxa directly from the command line
-
-For example:
-```
-curl -X POST https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree -H "content-type:application/json" -d '{"ott_ids":[292466, 267845, 316878]}'
-```
 For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs
 
 
-It is often more convenient to manipulate both trees and names within a scripting language.
 
 
-### Using Python
-We will use wrappers available in the python packages Physcraper and Peyotl to make it easier to work with the Open Tree Api's
-
-They are already installed on the cluster, in a python virtual environment.
-
-To run these analyses on the cluster, activate the python virtual environment (this loads the installed modules)
-```
-source /class/molevol-software/venv-physcraper/bin/activate
-
-```
-
-To install and run on your own laptop see the instructions on https://github.com/McTavishLab/physcraper/blob/master/INSTALL
-
-Your terminal should show **(venv-physcraper)** to the left of the bash prompt.

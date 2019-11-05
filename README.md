@@ -11,11 +11,11 @@ We've talked a lot about tools for estimating trees, but...
 
 In this tutorial we will walk through:
 
-  - [The Open Tree of Life resource](mds/the-open-tree-of-life.html)
+  - [The Open Tree of Life resource](mds/the-open-tree-of-life.md)
 
-  - [Standardizing taxon names](mds/tnrs.html)
+  - [Standardizing taxon names](mds/tnrs.md)
 
-  - [Getting a subtree for your taxa](mds/getting-a-subtree.html)
+  - [Getting a subtree for your taxa](mds/getting-a-subtree.md)
 
   - [Getting existing trees for arbitrary sets of taxa] (#)
 

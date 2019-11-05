@@ -32,7 +32,7 @@ To install and run on your own laptop see the instructions on https://github.com
 
 If you have a physcraper vurtual environment do `source venv-physcraper/bin/activate`. If not follow the instructions to set it up in [LINK TO INSTALL AS .MD FILE!](https://github.com/McTavishLab/physcraper/blob/master/INSTALL.md)
 
-If your virtual environment has installed properly, your terminal should show **(venv-physcraper)** to the left of the bash prompt.
+*If your virtual environment has installed properly, your terminal should show `(venv-physcraper)` to the left of the bash prompt.*
 
 Now, take a look at the script in the tutorials folder 'get_subtree.py'.
 This script gets the OpenTree ids from your taxonomy mapping file 'main.json',

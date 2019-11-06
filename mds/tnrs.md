@@ -1,4 +1,4 @@
-[Back home](README.md)
+[Back home](../README.md)
 
 # Standardizing taxon names
 
@@ -27,6 +27,6 @@ This is a brand new beta-version of this functionality, so some parts are a bit 
 
 For more on the OpenTree APIs see https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs
 
-[Previous:](mds/the-open-tre-of-life.md) Introduction to the Open Tree of Life
+[Previous:](the-open-tre-of-life.md) Introduction to the Open Tree of Life
 
-[Next:](mds/getting-a-subtree.md) Getting a subtree for your taxa
+[Next:](getting-a-subtree.md) Getting a subtree for your taxa

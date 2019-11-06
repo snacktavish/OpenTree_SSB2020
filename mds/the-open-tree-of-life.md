@@ -1,3 +1,5 @@
+[Back home](README.md)
+
 # The Open Tree of Life
 The Open Tree of Life (https://opentreeoflife.github.io/) is a project that unties phylogenetic inferences and taxonomy to provide a synthetic estimate of species relationships across the entire tree of life.
 ![](../img/otol_logo.png)
@@ -67,3 +69,7 @@ Don't agree with the relationships? Never fear! We'll see how to fix them by upl
 
 
 You can use the download a subtree of interest directly from the website.
+
+[Previous:](README.md) Back home
+
+[Next:](mds/tnrs.md) Standardazing taxon names

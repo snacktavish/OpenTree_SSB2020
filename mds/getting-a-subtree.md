@@ -1,3 +1,5 @@
+[Back home](README.md)
+
 # Getting a subtree for your taxa
 
 It is often more useful to access a pruned subtree for just the taxa you are interested in.
@@ -47,4 +49,8 @@ It will write two files out to your current working directory - the tree as 'syn
 
 Move both those files to your computer.
 Open the synthetic subtree in figtree to look at the placement of turtles.
+
+[Previous:](mds/tnrs.md) Standardazing taxon names
+
+[Next:](mds/) 
 

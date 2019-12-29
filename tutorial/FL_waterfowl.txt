@@ -1,0 +1,44 @@
+Dendrocygna autumnalis
+Dendrocygna bicolor
+Anser caerulescens
+Anser rossii
+Anser albifrons
+Branta bernicla (A)
+Branta hutchinsonii (A)
+Branta canadensis
+Cygnus columbianus (A)
+Alopochen aegyptiaca (I)
+Cairina moschata (I)
+Aix sponsa
+Spatula discors
+Spatula cyanoptera
+Spatula clypeata
+Mareca strepera
+Mareca penelope
+Mareca americana
+Anas platyrhynchos
+Anas rubripes (A)
+Anas fulvigula
+Anas bahamensis (A)
+Anas acuta
+Anas crecca carolinensis
+A. c. crecca (A)
+Aythya valisineria
+Aythya americana
+Aythya collaris
+Aythya marila
+Aythya affinis
+Somateria spectabilis (A)
+Somateria mollissima
+Histrionicus histrionicus (A)
+Melanitta perspicillata
+Melanitta deglandi
+Melanitta americana
+Clangula hyemalis
+Bucephala albeola
+Bucephala clangula
+Lophodytes cucullatus
+Mergus merganser (A)
+Mergus serrator
+Nomonyx dominicus (A)
+Oxyura jamaicensis

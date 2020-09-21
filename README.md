@@ -8,4 +8,5 @@ http://opentreeoflife.github.io/SSBworkshop/
     jupyter notebook
 ```
 
-Take a a look at the demo notebooks in the Notebooks folder to walk thorugh examples.
+The notebooks in the workbook folder will allow you to build up your own code.
+Take a a look at the demonstration notebooks in the Notebooks folder for help to walking thorugh examples.
